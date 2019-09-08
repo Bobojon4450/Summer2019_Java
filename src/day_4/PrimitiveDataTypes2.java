@@ -89,7 +89,7 @@ public class PrimitiveDataTypes2 {
         float h = 'A';
         long g = 12;
         
-        System.out.println("For the github check-out only");
+        System.out.println("For the github check-out only!");
           
 	}
 

@@ -90,6 +90,7 @@ public class PrimitiveDataTypes2 {
         long g = 12;
         
         System.out.println("For the github check-out only!");
+        System.out.println("Eclipse sync with github");
           
 	}
 

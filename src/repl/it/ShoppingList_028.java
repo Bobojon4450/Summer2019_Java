@@ -34,7 +34,7 @@ public class ShoppingList_028 {
 			report = "Item1: " + item1 + " Price: " + (price1 * count1) + ", ";
 		}
 		if (count2 > 0 && count3 > 0) {
-			report += "Item2: " + item2 + " Price: " + (price2 * count2) + ", ";
+			report += "Item2: " + item2 + " Price: " + (price2 * count2) + ", "; 
 		}
 		if (count2 > 0 && count3 == 0) {
 			report += "Item2: " + item2 + " Price: " + (price2 * count2);
@@ -45,6 +45,7 @@ public class ShoppingList_028 {
 	    if(count1 == 0 && count2 == 0 && count3 == 0) {
 	    	report = "The shopping cart is empty!";
 	    }
+	    
 	    System.out.println(report);
 	    System.out.println("Total price: "+totalPrice);
 

@@ -6,7 +6,7 @@ public class NextLine2 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter the zip-code: ");
-		int zipcode = in.nextInt();
+		int zipcode = in.nextInt();//takes zip only and Enter passed to the next line.
 		
 		in.nextLine();// takes the Enter from scanner.
 		

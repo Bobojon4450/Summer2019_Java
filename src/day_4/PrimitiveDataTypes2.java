@@ -81,6 +81,7 @@ public class PrimitiveDataTypes2 {
         
         
         
+        
         float f = 12L;
         double a = 300L;
         

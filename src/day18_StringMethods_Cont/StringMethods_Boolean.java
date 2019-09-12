@@ -67,8 +67,9 @@ public class StringMethods_Boolean {
 		
 	String str10 = "Muhtar";
 	boolean g = str10.endsWith("R");
-	System.out.println("endsWith: "+g);		
+	System.out.println("endsWith: "+g);	//case sensitive	
 			
-			
+	
+	
 	}
 }

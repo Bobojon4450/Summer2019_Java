@@ -24,7 +24,7 @@ public class Practice {
 			}
 		} while (true);
 		
-		
+	
 		
 		
 		

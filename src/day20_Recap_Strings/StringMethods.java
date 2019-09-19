@@ -50,7 +50,7 @@ public class StringMethods {
 		String C = "      N      ";
 		String C1 = C.trim();
 		System.out.println(C);
-		System.out.println(C1+"\n");
+		System.out.println("C1 "+C1+"\n");
 		
 		String CC = "      ";
 		int len = CC.length();
@@ -86,7 +86,7 @@ public class StringMethods {
 			
 			
 			
-		// index of: returns the first occured value's index number
+		// index of: returns the first occurred value's index number
 			String s2 ="Java is a fun language, I Love java, java,";
 			System.out.println( s2.indexOf("a") );  //1
 			System.out.println( s2.indexOf("ag"));  //19

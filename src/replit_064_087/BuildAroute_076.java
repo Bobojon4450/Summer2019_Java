@@ -5,9 +5,9 @@ public class BuildAroute_076 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter first letter from A-D(A,B,C,D) ");
+		System.out.println("Enter first letter from A-D (A,B,C,D) ");
 		String start = in.next();
-		System.out.println("Enter second letter from A-D(A,B,C,D) ");
+		System.out.println("Enter second letter from A-D (A,B,C,D) ");
 		String end = in.next();
 		
 		if(start.equalsIgnoreCase("a") && end.equalsIgnoreCase("b")) {

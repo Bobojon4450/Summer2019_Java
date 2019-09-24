@@ -29,7 +29,7 @@ public class Practice_2DArray {
 		char [][] ch2D = {{'A','B','G'}, {'C', 'D','H','F'}};
 		for (int i = 0; i < ch2D.length; i++) {
 			for (int j = 0; j < ch2D[i].length; j++) {
-				System.out.print(ch2D[i][j]+" ");
+				System.out.print(ch2D[i][j]);
 			}
 			System.out.print("\t");
 		}

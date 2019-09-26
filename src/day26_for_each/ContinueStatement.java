@@ -19,5 +19,6 @@ public class ContinueStatement {
 			}
 			System.out.print(number[i]+" ");
 		}
+		
 	}
 }

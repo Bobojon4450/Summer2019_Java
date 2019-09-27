@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class WarmUp {
 	public static void main(String[] args) {
+		
 		int a = 15;
 		int b = 6;
 		/*
@@ -16,7 +17,7 @@ public class WarmUp {
 		int x = 20;
 		int y = 6;
 		int count=0;
-		while (x>=y) {
+		while (x >= y) {
 			x -= y;
 			count++;
 		}

@@ -7,8 +7,9 @@ public class VoidMethod {
     		grouping a series of statements together to perform a specific tasks
     		methods can make our codes reusable (don't need to repeat the same set of statements)
 	   Method declaration:
+	   
     			access-modifier  specifier   return-type  name(){ }
-     				public         static     void      method_name() { }
+     				public         static      void      method_name() { }
 	 */
 	public static void main(String[] args) {
 		

@@ -6,22 +6,9 @@ public class PracticeMethods {
 
 	public static void main(String[] args) {
 		
-		//Turn it into method.
-		
 		String str = "aabbccjajgopcccddddaaa";
-		String result ="";
 		
-		for (int i = 0; i < str.length(); i++) {
-			if (!result.contains(str.substring(i, i+1))) {
-				result += str.substring(i, i+1);
-			}
-		}
-		char ch [] = result.toCharArray();
-		Arrays.sort(ch);
-		for (char c : ch) {
-			System.out.print(c+" ");
-		}
-		System.out.println();
+		removeDuplicates(str);
 
 		
 		int num1[] = new int[3];
@@ -50,6 +37,22 @@ public class PracticeMethods {
 		
 		
 		
+	}
+
+	public static void removeDuplicates(String str) {
+		String result ="";
+		
+		for (int i = 0; i < str.length(); i++) {
+			if (!result.contains(str.substring(i, i+1))) {
+				result += str.substring(i, i+1);
+			}
+		}
+		char ch [] = result.toCharArray();
+		Arrays.sort(ch);
+		for (char c : ch) {
+			System.out.print(c+" ");
+		}
+		System.out.println();
 	}
 
 }

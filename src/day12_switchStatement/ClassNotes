@@ -1,0 +1,103 @@
+08/29/2019
+
+Topic: Reveiw if statement without curly brace, Switch Statement
+
+		Warm up:
+			3 numbers, Find out which is largest.
+				- if n1 and n2 are equal, => "n1 and n2 are equal"
+				- if n2 and n3 are equal=> "n2 and n3 are equal"
+				- if n1 and n3 are equal=> "n1 and n3 are equal"
+				- if all are equal=> "n1 and n2 and n3 are equal"
+				- if none of them are equal => none
+		
+
+
+		if statement without curly braces:
+
+				if by itself without curly brace:
+
+					if(boolean expression)
+							// only single line of statement goes here
+
+					without culry bracces, the statment cannot contain more than one statement 
+
+
+
+				if and else statement without curly braces:
+
+						if(1st condition)
+								// only single line of statement goes here
+						else
+							// only single line of statement goes here
+
+					without culry bracces, the statment cannot contain more than one statement 
+
+
+
+
+				Multi branch if statements without curly brace:
+
+						if (1st condition)
+								// only single line of statement goes here
+
+						else if(2nd condition)
+								// only single line of statement goes here
+
+						else 
+							// only single line of statement goes here
+
+
+					without culry bracces, the statment cannot contain more than one statement 
+
+
+
+
+		Switch Statement:
+
+			Switch(Expression){
+				case  CaseValue: 
+							 statement1;
+							 break;
+
+				case  CaseValue2:
+						statement1;
+						break;
+				....
+
+				default:
+					some java statement;
+					break;
+			}
+
+whichever caseValue is matching with the switch statement's expression, that's the case that will be executed.
+
+			break : used for exiting the switch statement.
+
+	if we don't give the break statement after the case, code will continue running 
+	without exiting the switch statement.
+			
+
+		switch statement only exits when there is break statement or }
+		after break statement we should not give any extra statements because break statement 
+		is a closing statement (case closed) any extra statements will give error
+
+
+-------------------------------------------------------------------------------------------------------
+
+	how do we use switch statement:
+
+			Whenever you are writing code and checking if some variable equals different values.
+				1) You can use multi branch if statements
+				2) Switch statement
+
+					int score=1;
+				switch(score){
+					case 1 : System.out.println("score is 1");
+							 break;
+					case 2 : System.out.println("score is 2");
+					 		 break;
+					case 3 : System.out.println("score is 3");
+							 break;
+				}
+				
+				

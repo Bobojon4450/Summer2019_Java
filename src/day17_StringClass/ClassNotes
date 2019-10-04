@@ -1,0 +1,130 @@
+09/09/2019
+Topic: String class
+
+String class:
+        1. String is an object
+                there are two ways we can create String class' object:
+                    1. String literals:
+                            String str ="Cybertek";
+                    2. by using "new" keyword:
+                String str = new String("Cybertek")
+
+        Java Heap: a memory location where all the objects will be saved at
+
+        String Pool: Located in Java Heap Memory, it's a very special memory location for String literals. one memory location can be shared by multiple variables
+
+
+        everytime if the String object is created by String literals, the object will be saved at String pool
+
+
+        everytime if the String object is created by using "new" keyword, the object will be saved at Heap memory, out side String pool
+
+
+        2. String is immutable:
+                    cannot be midified
+
+        3. String represents the Sequences of Characters:
+            each character in the String, has index number. index number starts from 0
+                    String str ="Cybertek";
+                    index num:   01234567
+                    length: 8
+                    highest index num:  length()-1
+
+
+
+
+methods in String:
+
+charAt(index num): it takes the index number and returns it's character as the a char value
+                Ex: String str = "Cybertek";
+                //  index num:    012345
+
+                char ch = str.charAt(4);      ch ==> r
+
+    
+length(): returns the total number of characters
+                Ex:
+                    String str   =   "Cybertek"
+                    int num = str.length();
+
+
+toUpperCase(): converts to Upper cases
+
+                Ex: String str = "cybertek";
+                            str = str.toUpperCase();
+
+                            ==> str ="CYBERTEK";
+
+
+
+toLowerCase(): converts to the lower case
+
+                Ex: String str = "cybertek";
+                            str = str.toUpperCase();
+
+                            ==> str ="CYBERTEK";
+
+
+
+concat(str): it takes a String value and  conacts it to the String variable  and returns a NEW String value
+
+                EX: String str = "Cybertek";
+                        str = str.concat(" School");
+                        str ==> Cybertek School
+
+
+
+trim(): removes the unused spaces and returns it as a NEW string value
+                Ex: String str = "    Cybertek   ";
+                        str = str.trim();  ==> str="Cybertek";
+
+
+
+substring(beginning index): it creates subString of the String value from the beginning index  till the last index and returns it as new String value.
+
+                    Ex: Ex: String str = "Cybertek";
+                        //  index num:    01234567
+                                str = str.substring(3); ==> "ertek"
+
+
+substring(beginning index, ending index): it creates subString of the String value from the beginning index till the ending index that are provided and returns it as new String value.
+                    ENDING INDEX WILL BE EXCLUDED
+                    
+                    Ex: String str = "Cybertek";
+                    //  index num:    012345
+                                str = str.substring(0, 5);
+
+                    now str' value is Cyber, substring method does not include the ending index, that's why index 5 is excluded
+
+
+
+replace(old char, new char): replaces all the old chars with the given new char and returns it as a NEW String vlaue
+                    Ex: String str="Java";
+                        str = str.replace('a','e');
+                        //. str ==> "Jeve"
+
+
+
+		 replace(old str, new str):
+                replace all the old str values with the given new 
+                str values in the String and returns it as NEW String value
+
+                EX:
+                String str2 ="Today is gonna be a great day";
+                str2 =  str2.replace("Today","Tomorrow");
+                //str2 ==> "Tomorrow is gonna be a great day";
+
+
+
+replaceFirst(old str, new str):
+              it replaces the first occured old str with the new str in the String and returns it as a NEW String value 
+
+                    Ex:
+                String s1 ="Java is fun and great, Java is good";
+
+                s1 = s1.replaceFirst("Java","Python");
+                // s1 ==> "Python is fun and great, Java is good"
+
+
+
+        

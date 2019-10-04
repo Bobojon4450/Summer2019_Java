@@ -1,0 +1,46 @@
+09/19/2019
+Topic: Arrays
+
+Warmup Task:
+    1. Write a program that can devide two numbers without using division operator
+
+    2. write a program that can find the unique characters from a String.
+        Ex: 
+            input:
+                AAABCDEEFF
+            output:
+                BCD
+
+Arrays: a variable that we can store multiple values
+        regular variable:  
+            int a = 10 ;  can only have one value
+
+        Arrays:
+            int[]  VariableName  =  {10, 20, 30};            
+        //dataType  
+    
+
+    each values (Elements) in an array have thier own index numbers:
+            int[]  VariableName = {10, 20, 30, 40, 50 }
+                //index num:        0   1   2   3   4
+
+        to retrive the data of the array:
+                VariableName[indexNumber of data]:
+                    VariableName[3] ==> 40
+                    VariableName[0] ==> 10
+
+  Array is immutable, and Array's size is fixed
+
+  Array's size MUSt be initialized before use, there are two ways we can initialize Array's size:
+            1. giving values:
+                      int[] a ={1,2,3}
+            2. giving the size only:
+                int[] a = new int[LengthNumber]
+
+
+break till: 2:10 pm 
+
+Assessment quiz06 due by 2:30 pm:
+    canvas -> java -> quiz -> Assessment Quize06
+
+    

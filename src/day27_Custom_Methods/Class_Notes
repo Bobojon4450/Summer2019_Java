@@ -1,0 +1,65 @@
+09/26/2019
+Topic: Custom methods
+package: day27_CustomMethods
+
+Warmup:
+    1. create an int array called numbers that has length of 100
+    2. assign 1~100 to the array' indexes
+    3. use for each loop to print out all the even numbers.
+
+Methods: 
+    grouping a series of statements together to perform a specific tasks
+
+    methods can make our codes reusable (don't need to repeat the same set of statements)
+
+
+Method declaration:
+    
+    access-modifier specifier  return type  name(){ }
+     public         static     void    method_name() { }
+
+
+during the java course we will learn:
+        access-modifiers: public, protected, default, private
+        specifiers: static, abstract, final
+        return-type: void and any other data types(int, double...)
+
+
+    for now we will only use public and static for the access modifiers and specifiers
+
+
+    METHODS CANNOT BE DECLEARED WITHIN METHODS. MUST BE DECLEARED IN CLASS
+
+
+return Type:
+    void methods: the methods does not return any value
+
+
+methods with parameters:
+        sometime method needs specific information (from the user) to perform its task, then we need to declare the method with parameters
+
+        Ex:
+            int[] arr ={4,3,2,1};
+            Arrays.sort( arr );
+
+                arr is the argument, and sort method' functionality is to sort the given array
+
+
+calling methods: we call the methods by their method name
+
+
+methods with argument:
+
+    access-modfier  specifier  return-type name(parameter){
+            statements;
+    }
+
+
+    the passing parameter will be the argument (user provides) of the method
+
+
+    parameters: can be any data-type
+
+
+    if the method has parameters, when we call the method we MUST provide the matching argument.
+

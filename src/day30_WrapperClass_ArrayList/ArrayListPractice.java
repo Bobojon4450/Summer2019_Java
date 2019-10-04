@@ -1,12 +1,13 @@
 package day30_WrapperClass_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayListPractice {
 
 	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList();
+		ArrayList<String> list = new ArrayList<>();
 		list.add("Homayra");
 		list.add("Apple");
 		list.add(1, "Adamsho");
@@ -14,7 +15,7 @@ public class ArrayListPractice {
 		System.out.println();
 
 		Scanner in = new Scanner(System.in);
-		ArrayList<String> studentName = new ArrayList();
+		ArrayList<String> studentName = new ArrayList<>();
 
 		while (true) {
 			System.out.println("Enter name: ");
@@ -27,10 +28,19 @@ public class ArrayListPractice {
 				System.out.println("Invalid");
 				break;
 			}
-			if (respond.equalsIgnoreCase("No")|| respond.equalsIgnoreCase("N")) {
+			if (respond.equalsIgnoreCase("No") || respond.equalsIgnoreCase("N")) {
 				break;
 			}
 		}
 		System.out.println(studentName);
+		
+		
+		
+		int c[] = new int[] { 1, 2, 3, 4, 5 };
+		int d[] = new int[c.length];
+		for (int i = 0; i < c.length; i++) {
+			d[i] = c[i] * 2;
+		}
+		System.out.println(Arrays.toString(d));
 	}
 }

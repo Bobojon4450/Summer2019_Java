@@ -1,0 +1,48 @@
+09/24/2019
+
+Topics: For Each loop ,  Continue statement.
+
+Warm up:
+    1. write a program that can check if two Strings are build out of same 
+
+	    Ex: 
+	        if str1 = "aabbbc";  str2 ="cab";
+	        output: true
+
+	        if str1 ="abcd";  str2 ="abc";
+	        output: false
+
+	    Hint: you will need array and Arrays' methods
+
+
+For each loop: 
+        The for-each loop is used to access each value in a collection of values.  it's a loop that's already been iterated
+
+			The main usage of for each is iterating over collection classes or arrays.
+
+			for(DataType  each:  Array-Name ){
+
+
+				}	
+
+        variable name "each" represnts each values of the array
+
+        numbers of execution of the loop depends on the length of the array
+
+        	Ex: 
+				int[] arr = {1,2,3};
+				for(int each: arr){
+					syso(each);  
+				}
+			//	each elements of the array will be printed 
+
+
+when do we use for each:
+        	when we don't need to create the index variables
+   			 we don't provide index number in for each loop
+
+
+break statement: used to exit loop and switch statement.
+
+
+continue statement: used for skipping the current iteration of the loop and jumps to the next iteration.

@@ -1,0 +1,60 @@
+09/03/2019
+
+Topic: Ternary and Scanner 
+
+Ternary:
+    
+        int num=0;
+        if(true){
+            num=100.  
+        }else{
+            num=200;
+        }
+
+    converting to ternary:
+    
+        int num2 = true ? 100 : 200;
+
+
+        if(condition)      ==> (condition)?
+        else               ==>      :
+        else if(condition) ==>  :(condition)?
+
+        ternary MUST returns a value, and the value MUST be initialized to a variable or printed out
+
+        total numbers of  ? and : has to be equal.
+
+        in ternary's body we can only give a single value
+
+        () is not required in ternary
+
+=========================================================================================================
+
+Scanner:
+    
+    Scanner class provides the methods to get user inputs.
+
+    Scanner class is presented in "java.util" package
+        in order to use scanner class, first we have to import it:
+                    import java.util.Scanner;
+
+        import statement is placed between Package and class name:
+                package packageName;
+
+                import java.util.Scanner;
+
+                public class className {  }
+
+
+    declaration of Scanner class:
+
+        Scanner variableName = new Scanner(System.in)
+
+        variableName: can reference an object of the scanner class
+
+        new Scanner(System.in): creates scanner class' object
+
+            variableName.nextByte():
+                returns the user input as byte value
+
+                byte num = variableName.nextByte();

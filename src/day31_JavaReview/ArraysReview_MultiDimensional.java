@@ -38,7 +38,7 @@ public class ArraysReview_MultiDimensional {
 		String str = FrequencyOfChars("AAABBCDDDEFFG");
 		System.out.println("\n"+str);
 			
-	}
+}
 	
 	public static String FrequencyOfChars(String str) {
 
@@ -63,4 +63,6 @@ public class ArraysReview_MultiDimensional {
 		}
 		return expectedResult;
 	}
+
+
 }

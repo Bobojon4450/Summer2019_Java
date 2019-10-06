@@ -1,7 +1,5 @@
 package methods;
-
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class Methods {
@@ -14,6 +12,10 @@ public class Methods {
 		System.out.println(frequencyOfChars("ABCD"));
 		System.out.println("============================");
 		System.out.println(frequencyOfCharecters("AABBCDEEEGHIi"));
+		System.out.println(FrequencyOfChars("AABBCDEEEGHIi"));
+		System.out.println(cleanUp("AABBCDEEEGHIi"));
+		System.out.println("removeDuplicates(): "+removeDuplicates("AABBCDEEEGHIi"));
+		
 	}
 
 	/*
@@ -112,7 +114,7 @@ public class Methods {
 		String b = new LinkedHashSet<>(Arrays.asList(str.split(""))).toString();
 		b = b.replace(",", "").replace("[", "").replace("]", "");
 
-		String result ="";
+		String result = "";
 		for (int i = 0; i < b.length(); i++) {
 			int count = 0;
 			for (int j = 0; j < str.length(); j++) {
@@ -120,9 +122,56 @@ public class Methods {
 					count++;
 				}
 			}
-			result += b.substring(i, i+1) + count;
+			result += b.substring(i, i + 1) + count;
 		}
 		return result;
 	}
 
+	/* Version 3: Original */
+	public static String FrequencyOfChars(String str) {
+		String b = new LinkedHashSet<>(Arrays.asList(str.split(""))).toString();
+		b = b.replace(", ", "").replace("[", "").replace("]", "");
+
+		String result = "";
+		for (int j = 0; j < b.length(); j++) {
+			int count = 0;
+			for (int i = 0; i < str.length(); i++) {
+				if (str.substring(i, i + 1).equals("" + str.charAt(j)))
+					count++;
+			}
+			result += b.substring(j, j + 1) + count;
+		}
+		return result;
+	}
+
+	public static String cleanUp(String str) { // AABBCDEEEGHIi -->ABCDEGHIi
+		String temp = "";
+		for (int i = 0; i < str.length(); i++) {
+			if (!temp.contains("" + str.charAt(i))) {
+				temp += "" + str.charAt(i);
+			}
+		}
+
+		String result = "";
+		for (int i = 0; i < temp.length(); i++) {
+			int count = 0;
+			for (int j = 0; j < str.length(); j++) {
+				if (temp.charAt(i) == str.charAt(j)) {
+					count++;
+				}
+			}
+			result += ""+temp.charAt(i) + count+" ";
+		}
+		return result;
+	}
+
+	public static String removeDuplicates(String str) {
+		String result="";
+		for (int i = 0; i < str.length(); i++) {
+			if (!result.contains(""+str.charAt(i))) {
+				result += ""+str.charAt(i);
+			}
+		}
+		return result;
+	}
 }

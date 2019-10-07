@@ -6,8 +6,7 @@ public class StringMethods {
 
 	public static void main(String[] args) {
 		/*
-		 * split()
-		 * 		returns each as array separated with comma.
+		 * split():	returns each as array separated with comma.
 		 */
 		String sentence = "Today is great day to learn java";
 		String arr[] = sentence.split(" ");//returns each as array separated with comma

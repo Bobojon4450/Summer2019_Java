@@ -1,4 +1,4 @@
-package repl.it_099;
+package repl.it_099_108;
 import java.util.Scanner;
 
 public class ArraysPrint_first_lastChar_101 {

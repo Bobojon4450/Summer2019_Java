@@ -3,32 +3,29 @@ package day23_Arrays;
 public class WarmUp2 {
 
 	public static void main(String[] args) {
-		
-		String str ="AAABBCDEEF";
-		String unique="";
-		
-		
-		
+
+		String str = "AAABBCDEEF";
+		String unique = "";
+
 		for (int j = 0; j < str.length(); j++) {
-			int count=0;
+			int count = 0;
 			for (int i = 0; i < str.length(); i++) {
-				if (str.substring(i, i + 1).equals(""+str.charAt(j))) {
+				if (str.substring(i, i + 1).equals("" + str.charAt(j))) {
 					count++;
 				}
 			}
 			if (count == 1) {
-				unique += ""+str.charAt(j);
+				unique += "" + str.charAt(j);
 			}
 		}
 		System.out.println(unique);
 
-		
-/********************************************************************/
-		
+		/********************************************************************/
+
 		String str2 = "ALL THE LETTERS";
 		String unique2 = "";
-		int count2 =0;
-		
+		int count2 = 0;
+
 		for (int j = 0; j < str2.length(); j++) {
 			for (int i = 0; i < str2.length(); i++) {
 				if (str2.substring(i, i + 1).equals("A")) {
@@ -40,7 +37,7 @@ public class WarmUp2 {
 				unique2 += "A";
 			}
 		}
-		
+
 	}
 }
 // Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13

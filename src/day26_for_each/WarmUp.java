@@ -71,8 +71,17 @@ public class WarmUp {
 		System.out.println("----------------------");
 
 /*****************************************************************************/
+		next3(3);
 		
 		
-		
+	}
+	public static void next3(int x) {
+		if (x > 2) {
+			for (int i = 1; i <= x; i++) {
+				System.out.print((x+i)+" ");
+			}
+		}else {
+			System.out.print((x+1)+" "+(x+2)+" "+(x+3));
+		}
 	}
 }

@@ -1,4 +1,5 @@
 package methods;
+
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 
@@ -14,8 +15,8 @@ public class Methods {
 		System.out.println(frequencyOfCharecters("AABBCDEEEGHIi"));
 		System.out.println(FrequencyOfChars("AABBCDEEEGHIi"));
 		System.out.println(cleanUp("AABBCDEEEGHIi"));
-		System.out.println("removeDuplicates(): "+removeDuplicates("AABBCDEEEGHIi"));
-		
+		System.out.println("removeDuplicates(): " + removeDuplicates("AABBCDEEEGHIi"));
+		System.out.println(freqChars("AAANJYUTTT"));
 	}
 
 	/*
@@ -160,18 +161,58 @@ public class Methods {
 					count++;
 				}
 			}
-			result += ""+temp.charAt(i) + count+" ";
+			result += "" + temp.charAt(i) + count + " ";
 		}
 		return result;
 	}
 
 	public static String removeDuplicates(String str) {
-		String result="";
+		String result = "";
 		for (int i = 0; i < str.length(); i++) {
-			if (!result.contains(""+str.charAt(i))) {
-				result += ""+str.charAt(i);
+			if (!result.contains("" + str.charAt(i))) {
+				result += "" + str.charAt(i);
 			}
 		}
 		return result;
 	}
+
+	/* returns occurrence of char in the string */
+	public static int count(String str, String x) {
+		int count = 0;
+		while (str.contains(x)) {
+			count++;
+			str = str.replaceFirst(x, "");
+		}
+		return count;
+	}
+
+	/* Returns frequency of chars occurred in the string */
+	public static String freqChars(String str) {
+		/* returns non-duplicated string */
+		String nonDuplicate = removeDuplicates(str);
+		String result = "";
+		/* loops through the each char of the non-duplicated string */
+		for (int i = 0; i < nonDuplicate.length(); i++) {
+			/* returns the count of the char passed in the given array */
+			int count = count(str, "" + nonDuplicate.charAt(i));
+			/* the char and its total appearance concatenated */
+			result += "" + nonDuplicate.charAt(i) + count;
+		}
+		return result;
+	}
+
+	/* the palindrome method */
+	public static boolean isPalindrome(String str) {
+		String cleared = str.replaceAll(" ", "");
+		String reverse = "";
+		for (int i = cleared.length() - 1; i >= 0; i--) {
+			reverse += "" + cleared.charAt(i);
+		}
+		if (reverse.equalsIgnoreCase(cleared)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 }

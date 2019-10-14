@@ -37,6 +37,7 @@ public class WarmUp2 {
 				unique2 += "A";
 			}
 		}
+		System.out.println(unique2);
 
 	}
 }

@@ -34,7 +34,7 @@ decleration of array:
                 int[] arr = new int[5];
 
 
-methods of arraylist:
+Methods of ArrayList:
         add(object): adds objects to arrayList
 
         get(index):  gets the data from the arraylist
@@ -49,9 +49,9 @@ methods of arraylist:
 
         equal(ArrayList): checks if the two arrayList have same objects or not, returns boolean value
 
-        remove(int): removes the given index
+        remove(int): removes the given index.
 
-        remove(object) :  removes the first matching object, and retruns boolean value
+        remove(object) :  removes the first matching object, and returns boolean value!
 
 
 ArrayList vs Array:

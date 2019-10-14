@@ -13,19 +13,17 @@ public class ArrayListMethods {
 		list.add(Integer.parseInt("100")); // auto-boxing
 		list.add(Integer.valueOf("33")); // none
 
-		/*
-		 * indexOf(): returns the index of the first matching given object from the
-		 * list. if it returns negative number, then it means the given object does not
-		 * exist
-		 */
+		
+/* indexOf(): returns the index of the first matching given object from the list. 
+  			  If it returns negative number, then it means the given object does not exist */
 		int a = list.indexOf(33); // auto-boxing
 		System.out.println(a);
 
-		/* lastIndexOf(): returns the last occurrance of the given object in the list */
+/* lastIndexOf(): returns the last occurrence of the given object in the list */
 		int lastIndex = list.lastIndexOf(33);
 		System.out.println(lastIndex); // 3
 
-		/* Arrays.asList(): converts object arrays to List interface. */
+/* Arrays.asList(): converts object arrays to List interface. */
 		Integer[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		ArrayList<Integer> list2 = new ArrayList<Integer>(Arrays.asList(arr));
 		list2.add(11);
@@ -36,8 +34,9 @@ public class ArrayListMethods {
 		System.out.println(list3.isEmpty()); // false
 		
 		int [] arr2 = {1,2,3,4,5,6,7,8,9};
-		/*	Only object class arrays are converted		*/
-//		ArrayList<Integer>list4 = new ArrayList<Integer>(Arrays.asList(arr2));	compile error!
+/*		Only object class arrays are converted		*/
+/*		ArrayList<Integer>list4 = new ArrayList<Integer>(Arrays.asList(arr2));	compile error!*/
+		
 		
 /*	addAll(): */
 		String [] names = {"Adam","Zuhal","Zabi","Alip"};

@@ -10,3 +10,5 @@ public class StringTraining {
 		System.out.println(str.compareToIgnoreCase(helloString));
 	}
 }
+
+//	\0 this is how string ends.

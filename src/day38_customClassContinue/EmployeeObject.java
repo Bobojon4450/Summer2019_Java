@@ -6,4 +6,3 @@ public class EmployeeObject {
 		emp.getInfo();
 	}
 }
-//		\0

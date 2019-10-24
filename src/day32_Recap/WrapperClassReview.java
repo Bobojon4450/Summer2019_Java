@@ -88,7 +88,7 @@ public class WrapperClassReview {
        
        
        
-   //parse methods:    returns primitves, ignores the  the case sensitivity
+   //parse methods:    returns primitives, ignores the  the case sensitivity
        short s1 = Short.parseShort("1234");
        System.out.println(s1 +1 );
        
@@ -111,6 +111,8 @@ public class WrapperClassReview {
        boolean R1 = Boolean.valueOf("123213");  // un-boxing. Always returns false unless mentioned.
        System.out.println(R1);
            
+       int xx  = Integer.valueOf(num2);
+       System.out.println(xx);
        
 	}
 

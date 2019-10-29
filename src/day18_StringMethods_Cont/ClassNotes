@@ -32,7 +32,7 @@ Methods of String:
 
 
 		indexOf(strValue): returns the first occurrence of the given charSequence' first char' index number:
-				Ex: String str ="CybertekCI"
+				Ex: String str = "CybertekCI"
 				    index number: 0123456789
 					int num = str.indexOf("ek");//6
 

@@ -66,7 +66,7 @@ toLowerCase(): converts to the lower case
 
 
 
-concat(str): it takes a String value and  conacts it to the String variable  and returns a NEW String value
+concat(str): it takes a String value and  concats it to the String variable  and returns a NEW String value
 
                 EX: String str = "Cybertek";
                         str = str.concat(" School");

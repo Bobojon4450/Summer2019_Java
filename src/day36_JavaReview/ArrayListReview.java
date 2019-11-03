@@ -106,7 +106,7 @@ public class ArrayListReview {
 		price.remove(0);
         System.out.println(price);
         
-        /*	remove() is not designed to be used in the loop.	It is not going to work properly! */
+ /*	remove() is not designed to be used in the loop. It is not going to work properly! */
         ArrayList<Integer> nums = new ArrayList<Integer>(Arrays.asList(1, 1, 1, 1, 5, 6, 7, 8, 1));
         for (int i = 0; i < nums.size(); i++) {
 			if (nums.get(i) == 1) {

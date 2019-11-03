@@ -24,8 +24,12 @@ public class ConstructorMethod {
 	//Example:
 	public ConstructorMethod(double z) {
 	/*	this(10.6); compile error. */
+		this.test();
 	}
 	
+	public void test() {
+		System.out.println("test method");
+	}
 	
 	
 	public static void main(String[] args) {

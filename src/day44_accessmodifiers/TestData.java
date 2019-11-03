@@ -6,6 +6,7 @@ public class TestData {
 	public static String ID = "001";
 	
 	private static String password = "cybertek";
+	
 	/*	default is visible within the package only	*/
 	static int age = 15;
 	

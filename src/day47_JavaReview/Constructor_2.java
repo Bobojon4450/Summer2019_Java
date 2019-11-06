@@ -15,8 +15,7 @@ public class Constructor_2 extends Cinty{
 	
 	public static void main(String[] args) {
 		Zabi zb = new Zabi();
-		Constructor_2 cs2 = new Constructor_2();
-		
+		Constructor_2 cs2 = new Constructor_2();	
 	}	
 }
 

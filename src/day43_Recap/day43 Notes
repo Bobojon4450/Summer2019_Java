@@ -34,7 +34,7 @@ static methods: methods that we can call it through the class name ( beong to cl
 				none statics can ONLY be called through the object
 
 
-static inititializer block: used for initializing static variable
+static initializer block: used for initializing static variable
 					
 				declared in the class outside the method. WITH STATIC KEYWORD
 	

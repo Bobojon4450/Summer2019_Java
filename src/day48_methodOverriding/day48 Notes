@@ -8,12 +8,13 @@ Topics:     1. Method Overriding
                     
 package: day48_MethodOverRiding
 
-method overloading:  same name, different parameter
+
+Method overloading:  same name, different parameter
                      return type doesn't matter
                      access modifiers don't matter
                      any method can be overload  
                      
-method overriding: same name, same parameters, implementation functionality is different
+Method overriding: same name, same parameters, implementation functionality is different
                     Return-Type MUST be same
                     cannot happen in the same class
                     method MUST be override in sub class
@@ -30,6 +31,7 @@ method overriding: same name, same parameters, implementation functionality is d
                                 public ==> public
                                 private ==> cannot be overridden
                            	    public > protected > default > private
+                           	    
 @Override notation: used to verify if the method is overridden or not
 
 Why do we need overriding?

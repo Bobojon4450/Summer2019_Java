@@ -1,4 +1,4 @@
-package day4;
+package day4_primitive_data_types;
 
 public class PrimitiveDataTypes2 {
 

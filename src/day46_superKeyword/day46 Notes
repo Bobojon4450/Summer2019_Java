@@ -51,7 +51,7 @@ this(): used for calling the constructors from the class itself
 
 All the rules of of the constructor:
 
-      Constructor: special method. belongs to the object.used when we create the objects of the class  
+      Constructor: Special method. Belongs to the object. Used when we create the objects of the class  
 
          1. Every class MUST have constructor. 
             (if there isn't any, compiler will give no-arg constructor by default)

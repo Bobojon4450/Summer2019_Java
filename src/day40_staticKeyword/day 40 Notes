@@ -3,38 +3,38 @@ Topic:  static keyword
 
 package: day40_staticKeyWord
 
-static: means that we can access the members through the class name
+static: means that we can access the members through the Class name.
 		
-		static members belongs to the class, also called class members
+		Static members belongs to the class, also called class members.
 
-what can be static in java:
+What can be static in Java:
 				1. static variables (class, global)
-				2. static methods
+				2. static methods   (class members)
 				3. static initializer block
 				4. static inner class (nested class)
 
-instance variables: created in the class outside any method.
-		belongs to the object. each object will have its own copy
+Instance variables: created in the class outside any method.
+		            belong to the object. Each object will have its own copy.
 
-local variables: declared within the methods or blocks
-				only accessible within the method or block
+Local variables: Declared within the methods or blocks
+				 only accessible within the method or block.
 
 
-static variables: created in the class outside any method with static keyword
+Static variables: created in the class outside any method with static keyword.
 		
-		when a variable is static, it's shared by class and all objects of the class. 
-		we can call it through the class name
+		when a variables are static, they are shared by class and all objects of the class. 
+		We can call them through the Class name.
 
 
-static methods: a method that we can call through the class name
+Static methods: a method that we can call through the class name.
 		
-		static methods only accepts class members (static)
+		static methods only accepts Class members (static static variables/methods)
 
-		none static can only be called through the objects in the static method
+		none static members can only be called through the objects in the static method.
 
 
 
-instance variable VS static variable:
+Instance variable VS static variable:
 		instance variables belong to object (fields)
 		static variables belong to the class ( class variables)
 
@@ -43,22 +43,19 @@ instance variable VS static variable:
 		static features are shared by class and all other objects
 				can only have one copy
 
-		each objects they have thier own copy of instance variables
+		Each objects have their own copy of instance variables.
 
 
-summary:
-		1. static is shared by class and all other objects
-		2. there can only be one copy for the static variable
-		3. each objects has its own copy of instance variable
-		4. static members can be called through the class name
-		5. static methods only accepts static members
-		6. in order to call none static in a static method we MUST call it though the object
+Summary:
+		1. Static is shared by class and all other objects
+		2. There can only be one copy for the static variable.
+		3. Each objects has its own copy of instance variable.
+		4. Static members can be called through the class name.
+		5. Static methods only accepts static members.
+		6. In order to call none static in a static method we
+		   MUST call it though the object reference.
 
-
-
-break till: 2:00 pm
-
-tomorrow: initializer blocks
+Tomorrow: initializer blocks
 
 
 

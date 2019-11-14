@@ -14,7 +14,7 @@ WarmUp: create a custom class for bankaccount
 			deposit, withdraw, checking balance
 
 	requirements:
-			1. apply encapsulations
+			1. apply encapsulation
 			2. user should be able to deposit, withdraw and check the balance
 				2.1 if the withdrawing account is greater than available balance, 35$ penalty fee will be charger from the account
 
@@ -43,35 +43,23 @@ import statements:
 
 
 
+---------------------------------------------------------------------------------------------------------------------
 
-Access Modifiers: public, protected, private, default
+Access Modifiers: public, protected, private, default.
 
-		public: open for the world, visible at everywhere
+		public: Open for the world, visible at everywhere.
+				example: public int num = 100;
 
-				ex: public int num =100;
+		private: Only visible within the class,	not visible outside the class.
+				example: private int num = 100;
 
+		default: Only visible to the classes in the same package, not visible outside the package.
+   				 example: int num = 100;
 
-
-		private: only visible within the class
-				not visible outside the class
-
-				ex: private int num=100;
-
-
-
-		default: only visible to the classes in the same package
-				not visible outside the package
-
-				ex: int num = 100;
+		protected: Only visible to the classes in the same package. Not visible outside package
+				   but it's inheritable outside the package, hence visible to its' child class.
+				   example: protected int num = 100;
 
 
-
-		protected: only visible to the classes in the same package.
-				not visible outside package
-				but it's inheritable outside the package
-
-				ex: protected int num =100;
-
-
-		Public is the only access modifier that's visible outrside package
+		Public is the only access modifier that's visible outside a package.
 

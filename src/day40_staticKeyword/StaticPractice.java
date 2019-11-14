@@ -16,7 +16,9 @@ public class StaticPractice {
 	}
 	
 	
-	public static void method() {System.out.println("Static method");}
+	public static void method() {System.out.println("Static method"); method3();}
+	
+	public static void method3() {System.out.println("Static method3");} 
 	
 	public void method2() {System.out.println("Instance method");}
 	

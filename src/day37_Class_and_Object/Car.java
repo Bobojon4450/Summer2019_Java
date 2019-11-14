@@ -1,4 +1,4 @@
-package day37_classAndObject;
+package day37_Class_and_Object;
 
 public class Car {
 

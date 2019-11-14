@@ -7,6 +7,7 @@ Topics:     1. Method Overriding
                     final methods
                     
 package: day48_MethodOverRiding
+---------------------------------------------------------------------------------------------------------------
 
 
 Method overloading:  same name, different parameter
@@ -14,34 +15,36 @@ Method overloading:  same name, different parameter
                      access modifiers don't matter
                      any method can be overload  
                      
-Method overriding: same name, same parameters, implementation functionality is different
-                    Return-Type MUST be same
-                    cannot happen in the same class
-                    method MUST be override in sub class
+Method overriding: same name, same parameters, implementation of logic is different.
+                    Return-Type MUST be same.
+                    Cannot happen in the same class.
+                    Method MUST be override in sub class.
                     
                     ONLY THE INSTANCE METHODS CAN BE OVERRIDDEN
-                    CONSTRUCTORS and STATIC METHODS cannot be OVERRIDDEN
+                    CONSTRUCTORS and STATIC METHODS cannot be OVERRIDDEN.
                     
-                    private methods cannot be override
-                    the method we are going to override MUST be inheritable to the sub class
-                    override method' access modifiers need to be same or more visible
+                    Private methods cannot be override.
+                    The method we are going to override MUST be inheritable to the sub class.
+                    Override method' access modifiers need to be same or more visible.
                     
-                                default ==> deafult, protected, public
-                                protected ==> protected, public
-                                public ==> public
-                                private ==> cannot be overridden
-                           	    public > protected > default > private
+                        default ==> deafult, protected, public
+                        protected ==> protected, public
+                        public ==> public
+                        private ==> cannot be overridden!
+                        public > protected > default > private
                            	    
-@Override notation: used to verify if the method is overridden or not
+@Override notation: used to verify if the method is overridden or not.
 
 Why do we need overriding?
-        to implement specific functionality to the method
-            we create methods with same name and same parameters, then provide different implementation
-Example: 
-                Webdriver driver = new chromeDriver();
-                driver.get("URL"): goes to the URL in chrome browser
+        To implement specific functionality to the method. We create methods with same name and
+        same parameters, then provide different implementation.
+        
+		Example: 
+                WebDriver driver = new chromeDriver();
+                driver.get("URL"): goes to the URL in chrome browser.
                 WebDriver driver = new FireFoxDriver();
-                driver.get("URL"): goes to URL in firefox browser
+                driver.get("URL"): goes to URL in firefox browser.
+    
     super class: Bank
             actions: InterestRate()  ==>   9%
     sub classes: BankOfAmerica  ==> 7%
@@ -63,8 +66,8 @@ Override VS overload:
                   method name Must be same
                   parameters MUST be same
                   only instance methods can be override
-                  MUST be override in sub class
-                  @Override annotation MUST be applicable
+                  MUST be override in sub class.
+                  @Override annotation MUST be applicable.
                   
 override benefits: 
             readable
@@ -73,19 +76,20 @@ override benefits:
             
 
 final keyword: constant, cannot be changed or modified.
-        final keyword can only be applied to: 
+               final keyword can only be applied to: 
         
-                    variables: we cannot re-assign it
-                               Instance variables and static variables MUST be initialized immediately.
-                               Local variable needs to be assigned before use.
-                               If the private data is final, we can only generate getters.
-                         	   We cannot have setters for those private data.
+           final variables: we cannot re-assign it.
+                          final Instance variables and static variables MUST be initialized 
+                          immediately.
+                          final Local variable can be declared but needs to be initialized before use.
+                          If the private data is final, we can only generate getters.
+                          We cannot have setters for those private data.
                          	   
-                      methods: the implementation of the method cannot be changed
-                               final methods cannot be overridden.
-                               final methods can be overload.
+           final methods: implementation of the method cannot be changed due to final keyword.
+                          final methods cannot be overridden.
+                          final methods can be overload.
                                main method can be final.
                     
-                      classes: final class cannot be super class, but can be sub class.
+           final classes: final class cannot be super class, but can be sub class.
                                final classes are immutable, they cannot be extended.
                              

@@ -30,7 +30,8 @@ method decleration:
 	if the retun-Type is not void: the method MUST return a value
 
 
-return statement: it's used for exiting the current method, we can also use return statement to retun a vlue from the method
+return statement: it's used for exiting the current method, we can also use 
+                  return statement to return a value from the method.
 
 
 continue statement: skips the current iteration of the loop
@@ -55,7 +56,7 @@ optional task:
 
 
 void method VS return method:
-			void methoddoesnt return any value
+			void method doesn't return any value
 			return method MUST return a value
 
 
@@ -71,8 +72,8 @@ Method overloading:
 why do we need overload method: 
 			1. improves the reusability
 			2. improves the readability
-			3. easier to remmber : it is easy to remmber one method name instead of remembering multiple method names
-			4. overload methods is very flexibile
+			3. easier to remember : it is easy to remember one method name instead of remembering multiple method names
+			4. overload methods is very flexible.
 
 
 

@@ -6,6 +6,11 @@ public class StaticKeyword {
 	
 	public static void printHello(){
 		System.out.println("Hello");
+		new StaticKeyword().instanceMethod();
+	}
+	
+	public void instanceMethod() {
+		System.out.println("Instance method");
 	}
 	
 	public static void main(String[] args) {
@@ -19,5 +24,6 @@ public class StaticKeyword {
 		System.out.println(StaticKeyword.b);
 		System.out.println(st.b);
 		System.out.println(st2.b);
+		st.instanceMethod();
 	}
 }

@@ -54,7 +54,7 @@ public class FinalKeyword extends Holy{
 	
 	/*	final instance variables and static variables must be initialized before use.	*/
 	final int age = 18;
-	
+	final static double num = 10;
 	
 	
 	

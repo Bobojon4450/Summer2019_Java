@@ -4,7 +4,7 @@ Topic:  Class & Object
             2. instance methods
             3. custom class
 
-Package: day37_classAndObject
+Package: day37_Class_and_Object
 
 
 car class
@@ -23,11 +23,12 @@ car class
         car2 --> Tesla ModelS 2025, red, 60K, 20, 231123123
             car2.start()  ==> Tesla
 
+---------------------------------------------------------------------------------------------------------------
 
+Object: instance of the class, created from the class.
 
-object: instance of the class, created from the class
-
-class: where the objects came from, determines how the object should behave, it's a blueprint of the object
+Class: where the objects came from, determines how the object should behave. 
+       It's a blueprint of the object.
 
 Dog class:
     Attributes/data:
@@ -45,22 +46,21 @@ Dog class:
             Dog2.eat() ==> KIKO
 
 
-instance variable: object variables, MUST be declared in the lcass and outside any method
+Instance variable: object variables, MUST be declared in the class and outside any method
 
-local variable: variables that's created within the method
+Local variable: variables that's created within the method
 
-instance methods: methods belong to the object, does not have the specifier static. designed to work as an instance of the class
+Instance methods: methods belong to the object, does not have the static specifier. 
+                  Designed to work as an instance of the class.
 
-
-regular method:
+Regular method:
     access-modifier  specifier  return-Type methodName(parameter){
 
     }
 
 
-instance method:
-    access-modifer returnType methodName(parameter){
-
+Instance method:
+    access-modifier returnType methodName(parameter){
 
     }
 

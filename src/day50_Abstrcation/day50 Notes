@@ -49,7 +49,7 @@ abstract class: we cannot create object of
 
 abstract method: a method that's meant to be override
 				 a method without body/implementation
-				 cannot be static, private, final
+				 Cannot be static, private, final.
 				 Only the instance method can be override
 				 hides the implementation details
 

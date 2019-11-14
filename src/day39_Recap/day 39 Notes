@@ -6,23 +6,26 @@ Java Review:
         4. Decimal formatter class       
 
     
-instance variable: created outside methods, within the class. (object)
-                    it's also called fields
-local variables: created within the methods. not visible to other methods
-                    can only be used within the method
+Instance variable: created outside methods, within the class. (object)
+                   it's also called fields.
+Local variables: created within the methods. Not visible to other methods
+                    Can only be used within the method.
                     
-instance methods: methods that does not have static specifier, but have return type. (object)
+Instance methods: methods that does not have static specifier, but have return type. (object)
 
-this. : used for calling instance variables, we used when local and instance variables have the same names
+this. : used for calling instance variables, used when local and instance variables have the same names
 
 this(): used for calling the constructors within the class
 
 DecimalFormatter class: presented in  "java.text"
 
-class: where the objects are came from. it's the blueprint of the object
-            determines how object will behave
-object: instance of the class. we can store different datas to objects
-object creation:
+Class: where the objects are came from. it's the blueprint of the object
+            determines how object will behave.
+Object: instance of the class. We can store different data to objects.
+
+Object creation:
             ClassName obj = new  ExistingConstructor;
+
 Overload: same method name different parameter.
-            return type can be same or different.
+          return type can be same or different.
+

@@ -6,13 +6,14 @@ Java Review: ArrayList ( all methods)
 package: day36_JavaReview
 
 WarmUp:
-    1. write a return method that can remove the duplicated objects from an Integer arraylist
+    1. write a return method that can remove the duplicated objects from an Integer ArrayList
 
-    2. write a return method that can remove the duplicated objects from a String arraylist
+    2. write a return method that can remove the duplicated objects from a String ArrayList
 
-    3. write a return method that can remove the duplicated objects from a Character arraylist
+    3. write a return method that can remove the duplicated objects from a Character ArrayList
 
-    4. write a return method that can remove the duplicated objects from a Double arraylist
+    4. write a return method that can remove the duplicated objects from a Double ArrayList
+---------------------------------------------------------------------------------------------------------
 
 ArrayList methods: add(), get(), clear(), set(), size(),  indexOf(), 
                     lastIndexOf(), remove(), equals(), contains(), equals(), isEmpty(),
@@ -20,9 +21,9 @@ ArrayList methods: add(), get(), clear(), set(), size(),  indexOf(),
 
 Constructors: special method, used when we create an object of a class
 
-            Every class MUST have constructor.
+              Every class MUST have constructor.
 
-            if we don't create any constructor, then compiler will give default (no-arg) constructor
+     If we don't create any constructor, then compiler will give default (no-arg) constructor
 
 
 creating object:
@@ -54,7 +55,7 @@ declaration of constructor:
 constructor calls: 
         1. only a constructor can call another constructor
         2. constructor cannot called by constructor name
-        3. we use "this()" keyword to call the constructor in currect class
+        3. we use "this()" keyword to call the constructor in current class
         4. constructor call MUST be the first step in a constructor
         5. one constructor can only call one constructor (cannot call more than 1)
         6. constructor cannot call it self

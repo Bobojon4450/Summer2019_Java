@@ -27,7 +27,7 @@ Formulas:
     Perimeter of Square: 4 * side
     perimeter of cylinder: 2 ( pi * D + h)
     volume of cylinder: 3.14 * radius * radius * height .  
-
+----------------------------------------------------------------------------------------------------------------------------
 
 Remaining java topics:  Abstraction ( abstract method, abstract class, interfaces)
                         Polymorphism
@@ -52,9 +52,10 @@ Override vs Overload:
                   access modifier cannot be private
                   final methods cannot be overridden
                   @Override annotation must be applicable
+-------------------------------------------------------------------------------------------------------------------------
 
-Abstraction: concentrating on essentials/important things, not worrying about the details/implementation
-             hiding the implementation details
+Abstraction: Concentrating on essentials/important things, not worrying about the 
+             details/implementation. Hiding the implementation details.
         car: 
             start(){ 
                     put the key
@@ -63,11 +64,12 @@ Abstraction: concentrating on essentials/important things, not worrying about th
                 }
 
 abstract method: a method without body/implementation
+
                  public abstract start();  ==> generic
                  it's a method that's meant to be override ( cannot be final, private), in the regular sub class
-                 Only the instance methods can be override and can be abstract
+                 Only the instance methods can be overridden and can be abstract.
                 
-                abstract method can only be declared in abstract class and interface
+                abstract method can only be declared in abstract class and interface.
                     Example: 
                         Pontiac car:   
                             start(){
@@ -83,12 +85,12 @@ abstract method: a method without body/implementation
                                  driver
                             }
 
-abstract class:  abstract is something not concrete
-                we cannot create object from
-                a class meant to be extended
-                abstract class cannot be final
+abstract class: Abstract is something not concrete.
+                We cannot create object from the abstract class.
+                Class meant to be extended.
+                Abstract class cannot be final.
                 if the sub class is regular class, the sub class MUST override the abstract methods
-                if the sub class is asbtract, no need to override
+                if the sub class is abstract, no need to override.
        
        		 	why we cannot create object from abstract class?
                 abstraction is something not concrete, object is concrete.

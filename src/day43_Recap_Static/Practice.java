@@ -1,4 +1,4 @@
-package day43_Recap;
+package day43_Recap_Static;
 
 public class Practice {
 

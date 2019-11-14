@@ -3,13 +3,14 @@ package day41_initializerBlocks;
 public class StaticBlock {
 
 	String name ="ASA";
+	static String str = "Static varaible";
 	
 	/*	static block runs only once when class loaded.	*/
 	static {System.out.println("static block 1");}
 	
 	static {System.out.println("static block 2");}
 	
-	{System.out.println("Instance");}
+	{System.out.println("Instance"); System.out.println(str); }
 
 	public StaticBlock() {System.out.println("Constructor!");}
 	

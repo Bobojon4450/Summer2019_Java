@@ -4,6 +4,9 @@ public abstract class Abstraction {
 	public abstract void startTheCar();
 }
  
+abstract class XX extends Abstraction{
+	// No need to implement the abstract methods.
+} 
 
 class S extends Abstraction {
 

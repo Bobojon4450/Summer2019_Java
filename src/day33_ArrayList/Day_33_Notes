@@ -15,7 +15,7 @@ Warm up:
 
     write a return method that accepts a String array and sorts it in descending order
 
-        Hint: method overloading is prefered here
+        Hint: method overloading is preferred here
 
 
 ArrayList:  presented in "java.util"
@@ -25,23 +25,23 @@ ArrayList:  presented in "java.util"
             we can add or remove objects from arrayList
 
         
-decleration of ArrayList:
+declaration of ArrayList:
         ArrayList<NonPrimitive> variableName = new  ArrayList<NonPrimitive>();
         ArrayList<NonPrimitive> variableName = new  ArrayList<>();  (prefered)
         
 
-decleration of array:
+declaration of array:
                 int[] arr = new int[5];
 
 
 Methods of ArrayList:
         add(object): adds objects to arrayList
 
-        get(index):  gets the data from the arraylist
+        get(index):  gets the data from the ArrayList
 
-        size(): rteurns the length of arraylist as int
+        size(): returns the length of ArrayList as int
 
-        clear(): remeovs everything from arraylist
+        clear(): removes everything from ArrayList
 
         set(index number, object): the given object will replace the object at the given index number
 
@@ -53,11 +53,45 @@ Methods of ArrayList:
 
         remove(object) :  removes the first matching object, and returns boolean value!
 
+		indexOf(object) : returns the index number of the object from the arrayList, returns int 
+
+        lastIndexOf(Object): returns the last index number of the object from the ArrayList, returns int
+
+        Arrays.asList(Object Array):  used for converting object arrays to List interface 
+        							  we will learn List Interface in future.
+        
+        
+
+        addAll(Interface): used for storing multiple objects to ArrayList
+
+        removeAll(Interface): removes all the matching objects
+
+
+Sorting the array:
+
+        Arrays.sort(VariableName);  sorts in ascending order
+
+        Arrays class is presented in "java.util" package
+
+
+Sorting the arrayList:
+        Collections.sort(VariableName);  sorts in ascending order
+
+        Collections class is presented in "java.util" package
+
+
+Regular methods declaration:
+
+        access-modifier specifier return-type  methodName(parameter){
+                    statements;
+
+        }
+		
 
 ArrayList vs Array:
     	ArrayList' size is dynamic, Array' size is fixed
-   		ArrayList only supports nonprimitives, Array supports all
-    	Array can nbe multi-dimensional but ArrayList cannot be multi-dimensional
+   		ArrayList only supports non primitives, Array supports all
+    	Array can be multi-dimensional but ArrayList cannot be multi-dimensional
 
 
 tomorrow:

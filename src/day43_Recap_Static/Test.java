@@ -1,4 +1,4 @@
-package day43_Recap;
+package day43_Recap_Static;
 import day44_accessmodifiers.TestData;
 public class Test {
 
@@ -15,7 +15,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		System.out.println(str);
-//		System.out.println(TestData.age); wont compile since it is a default access modifier.
+		//System.out.println(TestData.age); //won't compile since it is a default access modifier.
 		System.out.println(num);
 		System.out.println(num2);
 	}

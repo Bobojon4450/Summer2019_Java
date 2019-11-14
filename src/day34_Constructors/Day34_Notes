@@ -64,21 +64,21 @@ Constructor: it's a very special method, used for creating the object of the cla
                         2. return methods
                         3. constructor (special)
 
-            Every single class MUST have a constructor, if we didn't give the constructor, then the compiler will give the deafult (no-arg) constructor
-            constructor methods can be overload
+            Every single class MUST have a constructor, if we didn't give the constructor, 
+                             then the compiler will give the default (no-arg) constructor.
+            constructors can be overload.
 
              
-
 Declaration of constructor:
 
         default constructor : constructor without argument
 
                 access-modifier  className(){
-                        statemnets;
+                        statements;
                 }
 
 
-        constructor with argument:
+Constructor with argument:
 
                 access-modifier  className ( parameter ){
                         statements;
@@ -91,8 +91,8 @@ Declaration of constructor:
 
         if we want to have more than one constructor we MUST overload the constructor
 
-constructor calls:
-        only a constructor can call another constructor
+Constructor calls:
+        Only constructor can call another constructor.
 
 
 

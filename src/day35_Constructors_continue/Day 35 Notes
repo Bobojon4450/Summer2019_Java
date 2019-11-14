@@ -19,6 +19,7 @@ Warm Up:
     5. write a return method that accepts an Integer arrayList and returns the second minimum number
             DO NOT USE SORT METHOD
             
+-------------------------------------------------------------------------------------------------------------------------
 
 Constructor :   special method
          1. Every class MUST have constructor
@@ -67,5 +68,5 @@ constructor call:
         2. constructors cannot be called by their name, we MUST use this() keyword to call current class' constructor
         3. constructor call MUST be the first statement in the constructor
         4. one constructor can ONLY call one constructor
-        5. constructor cannot call it self
+        5. constructor cannot call itself
         6. constructor cannot contain itself

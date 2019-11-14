@@ -28,6 +28,7 @@ public class CellPhoneObjects {
 		System.out.println(cl4.i);//2
 		System.out.println(cl4.j);
 		cl4.print();
+		CellPhone.print();
 		
 	}
 }

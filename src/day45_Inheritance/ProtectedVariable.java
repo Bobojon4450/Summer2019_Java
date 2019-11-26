@@ -1,4 +1,4 @@
-package day45_inheritance;
+package day45_Inheritance;
 
 public class ProtectedVariable {
 

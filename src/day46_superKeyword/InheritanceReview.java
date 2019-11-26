@@ -1,6 +1,6 @@
 package day46_superKeyword;
 
-import day45_inheritance.ProtectedVariable;
+import day45_Inheritance.ProtectedVariable;
 
 class Data{
 	public int num1 = 10;

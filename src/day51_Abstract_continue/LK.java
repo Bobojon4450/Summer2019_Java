@@ -28,6 +28,9 @@ final public class LK {
 	}
 }
 
-//class H extends LK{
-//	
-//}
+/*cannot be subclass of a final class.
+ * 
+ * class H extends LK{
+ * 
+ * }
+ */

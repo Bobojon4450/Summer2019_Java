@@ -1,0 +1,69 @@
+11/22/2019
+Topic: Polymorphism Review
+
+package: day55_Polymorphisim
+
+WarmUp:			
+	1. create an abstract class called ScrumTeam
+			Data: Name
+				  JobTitile
+				  Salary
+
+			Actions: DailyStandUp();
+					 Demo();
+
+	2. Create the following sub classes of ScrumTeam:
+				1. Testers:
+						Actions: FindBug
+
+				2. Developers:
+						Actions: FixBug
+
+	3. Create a class called BOA
+			create Array of Testers named sdets, at least store two objects
+			create array of Developers named dev, at least store three objects
+
+			create ArrayList of ScrumTeam:
+					store all the developer' and testers' objects
+
+
+extends: one sub class can only have one super class. one super class can have multiple sub class
+		class extends extends 
+		interface extends interface
+
+implements: a class can implement multiple interfaces
+			Class implements interface
+
+
+Object:
+			ClassName        objectName   =  new   ExistingConstructor
+			reference-Type      ref-name
+
+
+
+Polymorphisim: behaviors of the object in multiple ways
+
+			occurs when parent class/Interface is reference type, and object is created from sub class (non abstract)
+
+			if abstract class is reference type, object needs to be created from non abstract sub class
+
+			if interface is reference type, object needs to be created from the classes that's implemneting the interface
+					Ex: WebDriver driver = new CrhomeDriver();
+								driver.get
+								driver.nevigate
+								....
+
+
+
+
+	IS A: is inherited relationship between classes
+
+	Has A: if one class' object is used in another class
+
+
+We cannot create objects from interface and abstract class, 
+	because abstraction is not concrete.
+
+
+
+

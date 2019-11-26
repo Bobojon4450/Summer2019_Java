@@ -1,0 +1,50 @@
+11/15/2019
+Topic: Abstraction
+            Interface Introduction.
+            Interface vs Abstract class
+            
+package: day52_Interface    
+---------------------------------------------------------------------------------------------------------------
+
+Two ways to achieve abstractions:
+            1. Abstract class
+            2. Interface
+            
+	Why do we need interface?
+	What we can have in interface?
+	What we cannot have in interface?
+
+Interface: it's blueprint of class, but it's not a class.
+        
+        public interface InterfaceName{
+        }
+        
+        We can store abstract methods, and let classes implement abstract methods.
+        Interface is meant to be implemented.
+        
+Implements keyword: we use the implements keyword to implement abstract methods to the class.
+
+Why do we need interface?
+    A class can implement multiple interfaces.
+    A class can extend one class only.
+    
+What we CAN have in Interface ?
+     methods: 	Abstract methods, static methods, default method.
+     variables:  public static final => automatically variables are public, static and final by default.
+
+What we CANNOT have in Interface?
+        Constructor			/ since it is not a class.
+        Instance methods	/ since, Interface is not an instance of Object. There is no constractors in an interface.
+        Instance variable   / since instance variables are belong to object, we can't create obj from the Interface.
+        Instance block      / since it used to initialize instance variables, and we can't have them here.
+        static block        / since it used to initialize static variables, static variables in interface are final and initialized.
+
+Interface we have used: 
+                    WebDriver;
+                    WebElemnt;
+                    List;
+                    Set;
+                    Map;
+                    
+Instance methods can be declared in the class where it has Object instance (constractor).
+That is why we cannot have instance methods in the Interface.

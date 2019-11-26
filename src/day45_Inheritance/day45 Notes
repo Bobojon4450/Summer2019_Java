@@ -20,14 +20,14 @@ Access modifiers: public, private, default, and protected
 	if we don't give public, private or protected keywords, then the default access modifier 
 	will be given by default.
 
-						ex: package A
+				   Example: package A
 							public class a{
 								int num =100;
 							}
 
 							package B
 							public class b{
-							//	num is not visible in this class, because those two classes are located in two different packages 
+								num is not visible in this class, because those two classes are located in two different packages 
 							}
 
 
@@ -37,7 +37,7 @@ Access modifiers: public, private, default, and protected
 				Not visible but inheritable.
 
 
----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 
 Multiple classes: we can have multiple classes in a java file. There can only be one public 
                   class, and the public class' name MUST match with the java file' name. Other 
@@ -46,8 +46,8 @@ Multiple classes: we can have multiple classes in a java file. There can only be
 
 Inheritance: used for building relationships between classes, it build super and sub 
              relationships between classes.
-			Easiest way to get rich, we use "extends" keyword to build super and sub 
-			relationships between classes.
+			 Easiest way to get rich, we use "extends" keyword to build super and sub 
+			 relationships between classes.
  
 			public 	class   A    extends    B
 							sub			  super	

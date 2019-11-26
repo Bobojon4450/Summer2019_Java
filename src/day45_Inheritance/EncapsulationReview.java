@@ -1,4 +1,4 @@
-package day45_inheritance;
+package day45_Inheritance;
 
 import java.util.ArrayList;
 import java.util.Arrays;

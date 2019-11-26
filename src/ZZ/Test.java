@@ -9,4 +9,11 @@ public class Test {
 			return false;
 		}
 	}
+	
+	private final String str = "astr";
+
+	private String getStr() {
+		return str;
+	}
 }
+

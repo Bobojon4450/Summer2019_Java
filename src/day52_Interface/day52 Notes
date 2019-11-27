@@ -29,8 +29,8 @@ Why do we need interface?
     A class can extend one class only.
     
 What we CAN have in Interface ?
-     methods: 	Abstract methods, static methods, default method.
-     variables:  public static final => automatically variables are public, static and final by default.
+     methods: 	Abstract methods are always public, static methods, default method.
+     variables:  public static final => automatically any variables are public, static and final by default.
 
 What we CANNOT have in Interface?
         Constructor			/ since it is not a class.
@@ -48,3 +48,5 @@ Interface we have used:
                     
 Instance methods can be declared in the class where it has Object instance (constractor).
 That is why we cannot have instance methods in the Interface.
+
+Interface is pure abstraction, method declared in the interface is given abstract keyword by default

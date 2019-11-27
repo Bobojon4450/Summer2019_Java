@@ -28,7 +28,7 @@ public class Upcasting {
 
 
 interface Inter{
-	public void name();
+	void name();
 //	private int num =25;
 	public static void main(String[] args) {
 //		Inter i = new Inter();

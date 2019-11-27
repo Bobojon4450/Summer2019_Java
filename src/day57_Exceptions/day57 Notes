@@ -1,0 +1,73 @@
+11/26/2019
+Topic:	Exceptions
+			Unchecked Exceptions( unexpected )
+			Checked Exceptions ( unwanted )
+
+		Exception Handling
+			1. try & catch blocks
+
+Agenda:
+	Morning: Java
+	Afternoon: Selenium
+
+
+package name: day57_Exceptions
+	
+
+Exceptions: unwanted or unexpected events
+
+	Exception is class that will be thrown when those unexpected and unwanted events occurred.
+	There are two types of exceptions:
+
+		Unchecked Exception (unexpected ): exceptions that occur during runtime.
+					Ex: int[] arr= {1, 2, 3}
+							syso(arr[20]);
+
+		Selenium Example: nullPointer exception
+						 No such Element Exception
+						 WebDriverException
+
+						 WedDriver driver = new FireFoxDriver();
+						 		driver.get("URL")
+
+
+		RunTimeException class is the parent class of all the unchecked exceptions.
+		All the RuntimeExceptions are unchecked exceptions
+
+
+		Checked exception (unwanted): occurs during the compile time.
+		Those exceptions need to be handled IMMEDIETLTY, because it will give compile error
+
+			Example:
+					Thread.sleep();
+
+		All the exceptions that are not RunTimeException are called checked exception
+
+
+Exception Handling:
+
+	1. try & catch: used for handling the exception
+
+				try{
+					exception statements/code
+				} catch(ExceptionClass name){
+					statements
+				}
+
+		Only one of those blocks gets executed.
+
+
+		try block: only gets executed if the exception is checked exception.
+
+		catch block: only gets executed if the exception is unchecked (Runtime Exception)
+		
+
+
+Monday:  properties file 
+		 Exceptions
+
+
+Quiz: Exception
+	  Selenium
+
+

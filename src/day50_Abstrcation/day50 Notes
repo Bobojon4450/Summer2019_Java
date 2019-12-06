@@ -41,10 +41,7 @@ abstract keyword: can only applicable to class and methods
 
 abstract class: we cannot create object of
 
-				it's a class that's meant to be extended 
-
-				cannot be final
-
+				it's a class that's meant to be extended, cannot be final.
 				class' access modifiers can only public or default
 
 
@@ -52,7 +49,7 @@ Abstract method: a method that's meant to be override
 				 a method without body/implementation
 				 Cannot be static, private, final.
 				 Only the instance method can be override
-				 hides the implementation details
+				 hides the implementation details.
 
 
 			Declaration of abstract method:

@@ -12,7 +12,8 @@ Agenda:
 package name: day56_Polymorhisim
 
 
-Polymorphism:  occurres when a super class/interface is reference and object from is created from child class
+Polymorphism:  Occurres when a super class/interface is reference and object is created from 
+			   child class.
 
             A   extends   B
             sub          super
@@ -24,13 +25,14 @@ Polymorphism:  occurres when a super class/interface is reference and object fro
 
         child class cannot be the reference to parent class' object.
 
-        if we make the abstract class as reference, object MUST be creatd from sub class(non abstract)
+        if we make the abstract class as reference, object MUST be created from sub class(non abstract)
 
-        if we make the interface as reference, object MUST be created from the classes(Non Abstract) that's impleenting the interface 
-
+        if we make the interface as reference, object MUST be created from the classes(Non Abstract) that's 
+        implementing the interface.
+         
 
         A obj11 = new B();  
-            obj11.methodA();   // from B clas
+            obj11.methodA();   // from B class
         //  if a method is exist in both reference type and object, the overridden one gets executed
             
         obj11.methodC();
@@ -43,7 +45,7 @@ Polymorphism:  occurres when a super class/interface is reference and object fro
             // there is no IS A relation between Chrome Driver and FireFoxDriver
 
 
-interface: WebDriver, WebElemnet, JavaScriptExecuter, TakeScreenShot...
+Interface: WebDriver, WebElemnet, JavaScriptExecuter, TakeScreenShot...
 
 
 IS A: inherited/implemented relation between class
@@ -53,7 +55,7 @@ IS A: inherited/implemented relation between class
         PitBull extends Dog
 
         Dog IS An Animal
-        Pitbull IS A Dog
+        PitBull IS A Dog
         PitBull IS An Animal
 
 
@@ -74,16 +76,16 @@ Has A:
         Zoo Has A lion
         Zoo Has A tiger
 
-method Overriding: same method name , same parameter
-                only the instance method can be overridden
-                HAS to be overridden in the sub class
-                Cannot be private, static, final
-                access modifier needs to be same or more visible
-                return-type HAS to be same
-                @Override has to be applicable
+method Overriding: same method name , same parameter.
+                   Only the instance method can be overridden
+                   HAS to be overridden in the sub class
+                   Cannot be private, static, final
+               	   access modifier needs to be same or more visible
+                   return-type HAS to be same
+                   @Override has to be applicable
 
 
-there are TWO types of castings between class: Upcasting and Downcasting
+there are TWO types of castings between class: UpCasting and DownCasting
 
 
         RemoteDriver implements WebDriver, JaveScriptExecuter, TakeScreenSH
@@ -92,7 +94,7 @@ there are TWO types of castings between class: Upcasting and Downcasting
 
 
             1. UpCasting: converting sub type to super type
-                    Always allowed to use
+                    Always allowed to use.
 
                 WebDriver driver = new ChromeDriver();
 

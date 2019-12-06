@@ -34,7 +34,7 @@ What we CAN have in Interface ?
 
 What we CANNOT have in Interface?
         Constructor			/ since it is not a class.
-        Instance methods	/ since, Interface is not an instance of Object. There is no constractors in an interface.
+        Instance methods	/ since, Interface is not an instance of Object. There is no constructors in an interface.
         Instance variable   / since instance variables are belong to object, we can't create obj from the Interface.
         Instance block      / since it used to initialize instance variables, and we can't have them here.
         static block        / since it used to initialize static variables, static variables in interface are final and initialized.

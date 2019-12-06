@@ -25,7 +25,7 @@ WarmUp:
 
 			create ArrayList of ScrumTeam:
 					store all the developer' and testers' objects
-
+------------------------------------------------------------------------------------------------------------------------------
 
 extends: one sub class can only have one super class. one super class can have multiple sub class
 		class extends extends 
@@ -43,15 +43,15 @@ Object:
 
 Polymorphisim: behaviors of the object in multiple ways
 
-			occurs when parent class/Interface is reference type, and object is created from sub class (non abstract)
+		Occurs when parent class/Interface is reference type, and object is created from sub class (non abstract)
 
-			if abstract class is reference type, object needs to be created from non abstract sub class
+		if abstract class is reference type, object needs to be created from non abstract sub class
 
-			if interface is reference type, object needs to be created from the classes that's implemneting the interface
-					Ex: WebDriver driver = new CrhomeDriver();
-								driver.get
-								driver.nevigate
-								....
+		if interface is reference type, object needs to be created from the classes that's implementing the interface
+				Ex: WebDriver driver = new CrhomeDriver();
+							driver.get
+							driver.nevigate
+							....
 
 
 

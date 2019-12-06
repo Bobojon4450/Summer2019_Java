@@ -6,6 +6,7 @@ class Animal{
 	}
 }
 
+
 class Dog extends Animal implements Inter{
 	public void methodD() {
 		System.out.println("Dog");
@@ -13,6 +14,12 @@ class Dog extends Animal implements Inter{
 	 
 	@Override
 	public void name() {System.out.println("Doggy");}
+	
+	@Override
+	public void methodA() {
+		System.out.println("Dog Animal");
+	}
+	
 }
 
 public class Upcasting {
@@ -21,8 +28,10 @@ public class Upcasting {
 		//Upcasting: casting subclass to superior type
 		Dog dog = new Dog();
 		dog.name();
+		
 		Animal animal = (Animal)dog;
 		animal.methodA();
+		
 	}
 }
 

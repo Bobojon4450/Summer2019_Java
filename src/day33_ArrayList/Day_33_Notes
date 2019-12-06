@@ -16,7 +16,7 @@ Warm up:
     write a return method that accepts a String array and sorts it in descending order
 
         Hint: method overloading is preferred here
-
+------------------------------------------------------------------------------------------------------------------------------------
 
 ArrayList:  presented in "java.util"
             does not support primitives, we can only store objects

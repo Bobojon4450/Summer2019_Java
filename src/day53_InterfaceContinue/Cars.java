@@ -6,4 +6,5 @@ public interface Cars {
 	
 	//my creation
 	default void carsMessage() {System.out.println("carsMessage");}
+	
 }

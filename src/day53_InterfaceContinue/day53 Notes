@@ -28,34 +28,32 @@ WarmUp:
 
 --------------------------------------------------------------------------------------------------------------------
 
-Interface: used for achieving abstraction
-			we can store abstract methods
+Interface: used for achieving abstraction, We can store abstract methods
 
-		Interface is meant to be implemented, cannot be final
+		Interface is meant to be implemented, cannot be final.
 
-		we can implement multiple interfaces to the class by implements keyword
-
+		We can implement multiple interfaces to the class by implements keyword
 			
-		we cannot create object from both interface and abstract class, because object needs to be concrete
+		We cannot create object from both interface and abstract class, because object needs to be concrete.
 
-		abstract method cannot be overridden in Interface, because there is no instance methods in an Interface
+		Abstract method cannot be overridden in Interface, because there is no instance methods in an Interface.
 
 
-	Interface Can Have:
+Interface Can Have:
 			methods: abstract method, static method, default method
-					public abstract void methods();
-					public void method();
+					 public abstract void methods();
+					 public void method();
+					 public static void method(){Sys.out.print("Hi");}
 
-				public access modifiers are given by default to all methods
+			public access modifiers are given by default to all methods
 
 			variables: public static final ==> automatically
 
 
-	Interface Can Not Have:
-			Methods: Constructor, instance methods
-			variables: instance variable
-			blocks: static initializer block, instance initializer block
-
+Interface Can Not Have:
+			Methods:   Constructor, Instance methods
+			variables: Instance variable
+			blocks:    static initializer block, instance initializer block
 
 
 Restrictions of abstract method:
@@ -72,7 +70,7 @@ Abstract class VS Interface:
 			cannot create object from them.	Both of them cannot be final.
 
 			Abstract class: meant to be extended to the regular class, extends keyword.
-					methods: abstract and all non-abstract methods
+				   methods: abstract and all non-abstract methods
 
 					variables: any variables
 					blocks: both instance and static blocks
@@ -82,7 +80,7 @@ Abstract class VS Interface:
 
 Interface: meant to be implemented to the regular class, implements keyword.
 	  methods: We can only have abstract, static, and default methods.
-	variables: public final static by default.
+	variables: public static final  by default.
 	   blocks: Cannot have any blocks.
 
 	Sub class can implement multiple interfaces.

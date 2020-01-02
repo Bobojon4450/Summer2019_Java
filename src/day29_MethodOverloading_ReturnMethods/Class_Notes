@@ -14,7 +14,7 @@ Warm up:
 
 
 	
-method decleration: 
+method declaration: 
 	access-modifier specifier  returnType name(parameter){}
 	     public       static     void 
 
@@ -27,7 +27,7 @@ method decleration:
 
 	if the return-type is void, the method does not return any value
 
-	if the retun-Type is not void: the method MUST return a value
+	if the return-Type is not void: the method MUST return a value
 
 
 return statement: it's used for exiting the current method, we can also use 

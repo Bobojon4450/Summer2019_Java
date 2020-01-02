@@ -1,6 +1,10 @@
 package day57_Exceptions;
 
-public class ExceptionHandling {
+public class ExceptionHandling /* extends Exception */ {
+	
+	/*
+	 * public ExceptionHandling() { super("Bal"); }
+	 */
 
 	private static String str;
 	
@@ -46,3 +50,8 @@ public class ExceptionHandling {
 	}
 
 }
+/*
+ * class Test{ public static void main(String[] args) { String bla =
+ * "bla  dsdg"; if (bla.contains("bla" )|| bla.contains("asdhfclb")) { throw new
+ * ExceptionHandling(); } } }
+ */

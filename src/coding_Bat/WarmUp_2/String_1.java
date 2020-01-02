@@ -474,7 +474,7 @@ public class String_1 {
 			}
 		}
 	}
-	
+	 
 	/*Given a string and a second "word" string, we'll say that the
 		word matches the string if it appears at the front of the string, 
 		except its first char does not need to match exactly. On a match, 
@@ -519,6 +519,7 @@ public class String_1 {
 //	public String withoutX(String str) {
 //		
 //	}
+	
 	
 	
 	/*

@@ -11,7 +11,7 @@ Warm up:
 		your initial is: CB
 
 	2. write a program that can print user' first and last name
-		Requiremnt:
+		Requirement:
 			first character MUST be capital and remaining characters Must be in lower case
 			Ex:	Enter your first name and last name:
 				mUhTaR

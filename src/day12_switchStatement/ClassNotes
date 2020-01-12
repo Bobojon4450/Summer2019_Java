@@ -1,6 +1,6 @@
 08/29/2019
 
-Topic: Reveiw if statement without curly brace, Switch Statement
+Topic: Review if(){} statement without curly braces, Switch() Statement
 
 		Warm up:
 			3 numbers, Find out which is largest.
@@ -19,7 +19,7 @@ Topic: Reveiw if statement without curly brace, Switch Statement
 					if(boolean expression)
 							// only single line of statement goes here
 
-					without culry bracces, the statment cannot contain more than one statement 
+					without curly braces, the statement cannot contain more than one statement 
 
 
 
@@ -29,13 +29,13 @@ Topic: Reveiw if statement without curly brace, Switch Statement
 								// only single line of statement goes here
 						else
 							// only single line of statement goes here
-
-					without culry bracces, the statment cannot contain more than one statement 
-
-
+ 
+					without curly braces, the statement cannot contain more than one statement
 
 
-				Multi branch if statements without curly brace:
+
+
+				Multy-branch if statements without curly brace:
 
 						if (1st condition)
 								// only single line of statement goes here
@@ -46,13 +46,12 @@ Topic: Reveiw if statement without curly brace, Switch Statement
 						else 
 							// only single line of statement goes here
 
-
-					without culry bracces, the statment cannot contain more than one statement 
-
+					without curly braces, the statement cannot contain more than one statement
 
 
 
-		Switch Statement:
+
+Switch Statement:
 
 			Switch(Expression){
 				case  CaseValue: 
@@ -60,8 +59,8 @@ Topic: Reveiw if statement without curly brace, Switch Statement
 							 break;
 
 				case  CaseValue2:
-						statement1;
-						break;
+							statement1;
+							break;
 				....
 
 				default:
@@ -69,7 +68,8 @@ Topic: Reveiw if statement without curly brace, Switch Statement
 					break;
 			}
 
-whichever caseValue is matching with the switch statement's expression, that's the case that will be executed.
+Whichever caseValue is matching with the switch statement's expression, 
+that's the case that will be executed.
 
 			break : used for exiting the switch statement.
 
@@ -90,7 +90,8 @@ whichever caseValue is matching with the switch statement's expression, that's t
 				1) You can use multi branch if statements
 				2) Switch statement
 
-					int score=1;
+			    int score = 1;
+			    
 				switch(score){
 					case 1 : System.out.println("score is 1");
 							 break;
@@ -99,5 +100,4 @@ whichever caseValue is matching with the switch statement's expression, that's t
 					case 3 : System.out.println("score is 3");
 							 break;
 				}
-				
 				

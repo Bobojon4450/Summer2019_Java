@@ -30,6 +30,7 @@ package day50_Abstrcation;
 	 public byte age;
 	 public String color;
 	 public String name;
+	 
 	
 	/*This constructor will be called in the extended class constructor	*/
 	public Animal(char gender, byte age, String color, String name) {

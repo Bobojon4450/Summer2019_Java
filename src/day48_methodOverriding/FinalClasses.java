@@ -8,7 +8,7 @@ final public class FinalClasses extends Test {
 }
 
 // class Test cannot extend from FinalClasses class.
-//class Test extends FinalClasses{}
+// class Test extends FinalClasses{}
 
 class Test{
 	

@@ -4,11 +4,11 @@ public class ArraysClass {
 
 	public static void main(String[] args) {
 		
-		int arr [] = {1,2,3,4,5,6,7,8,9,0};
+		int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 		for (int i : arr) {
-			System.out.print(" "+i);
+			System.out.print(" " + i);
 		}
-		
+		System.out.println();
 /*************************************************************/
 		
 		String[] names = { "Nigar" ,"Sumeyya", "Madina", "Juline" } ;
@@ -58,7 +58,6 @@ public class ArraysClass {
         
             char[]  myChars = {'A','B','C','D'};
             int HighestIndexNum2 =  myChars.length -1;
-            System.out.println(HighestIndexNum2);
-		
+            System.out.println("HighestIndexNum2: "+HighestIndexNum2);
 	}
 }

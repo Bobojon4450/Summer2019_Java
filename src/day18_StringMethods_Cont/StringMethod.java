@@ -40,7 +40,7 @@ public class StringMethod {
 		String myEmailType = myEmail.substring(begin2, end2);
 		System.out.println(myEmailType);
 		
-
-		
+		String string = " ";
+		System.out.println(string.isEmpty()); //false
 	}
 }

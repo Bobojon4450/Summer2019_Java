@@ -1,11 +1,11 @@
 08/30/2019
 
-Java Reveiw day: Switch Statement
+Java Review day: Switch Statement
 
-switch statement:
+Switch statement:
 
     whenever you are writing code and checking if some variable equals different values:
-            1. you can use multi-branch if
+            1. you can use multibranch if
             2. switch statement
         
         switch(Expression){
@@ -35,15 +35,16 @@ switch statement:
 
         case is similar with else-if.
 
-        default section is similar with else statemnt.
+        default section is similar with else statement.
 
         default section will get executed when there is no case that matches with the given expression.
 
-        default section can be placed any any where with in switch statement.
+        default section can be placed anywhere with in switch statement.
 
         in switch statement, none of the blocks( cases and default ) or statements (break;) are mandatory.
 
-    switch statements expression MUSt be evaluate to a single value (either charcaters, digits, or text), therefore 4 dataTypes are not accepted: double, float, long, boolean
+    Switch statements expression MUST be evaluate to a single value (either characters, digits, or text)
+    therefore 4 dataTypes are not accepted: double, float, long, boolean
                 double a = 10L, 10D, 10D;
                 float a = 10F, 10f;
                 long a = 10, 10L, 10l;

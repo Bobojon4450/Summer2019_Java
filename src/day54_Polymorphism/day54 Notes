@@ -29,14 +29,14 @@ OOP:
 	4. Polymorphism: objects to behave in multiple forms.
 
 Is A relation: is inherited relationship between classes.
-			Ex: class Dog extends Animal 
+	   Example: class Dog extends Animal 
 				class Husky extends Dog
 
 				Dog is An animal 
 				Husky is A Dog
 				Husky is an Animal
 				Animal obj = new Husky();
----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 Has A relation: instance of the class (object) is used in another classes.
 
 			class Car{
@@ -66,11 +66,11 @@ Has A relation: instance of the class (object) is used in another classes.
 
 -------------------------------------------------------------------------------------------------------------
 Polymorphism: 
-			Occurres when the super class/interface is reference type, 
+			Occurs when the super class/interface is reference type, 
 			and object is created from the non-abstract class that has IS A relation 
 			with the super class/interface.
 
-		Example:
+	Example:
 			WebDriver driver = new ChromeDriver();
 			driver.get("google.com")  // overridden method of Chrome will be executed first.
 
@@ -80,19 +80,20 @@ Polymorphism:
 
 	2 IMPORTANT RULES:
 		1) reference type decides what methods are accessible and can be used.
-		2) reference type can be parent class or interface, and objects can be any sub class.
+		2) reference type can be parent class or Interface, and objects can be any sub class.
 
 
 		If we make the abstract class as reference type, the object 
 		MUST be created from it's sub class (Non-Abstract).
 
-		if we make the interface as reference type, object MUST be created 
-		from the classes(non abstract) that are implementing the interface.
+		If we make the Interface as reference type, object MUST be created 
+		from the classes(non abstract) that are implementing the Interface.
+		
 -------------------------------------------------------------------------------------------------------------
 
 Method overriding: ONLY THE INSTANCE METHOD CAN BE OVERRIDEN
-			cannot be static, final, private
-			MUST take place at sub class
+				   cannot be static, final, private
+			       MUST take place at sub class
 
 
 

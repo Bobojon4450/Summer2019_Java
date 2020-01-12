@@ -11,8 +11,8 @@ Two ways to achieve abstractions:
             2. Interface
             
 	Why do we need interface?
-	What we can have in interface?
-	What we cannot have in interface?
+	What can we have in interface?
+	What cannot we have in interface?
 
 Interface: it's blueprint of class, but it's not a class.
         
@@ -29,24 +29,24 @@ Why do we need interface?
     A class can extend one class only.
     
 What we CAN have in Interface ?
-     methods: 	Abstract methods are always public, static methods, default method.
-     variables:  public static final => automatically any variables are public, static and final by default.
+    methods: 	Abstract methods are always public, static methods, default method.
+    variables:  public static final => automatically all variables are public, static and final by default.
 
 What we CANNOT have in Interface?
-        Constructor			/ since it is not a class.
-        Instance methods	/ since, Interface is not an instance of Object. There is no constructors in an interface.
-        Instance variable   / since instance variables are belong to object, we can't create obj from the Interface.
-        Instance block      / since it used to initialize instance variables, and we can't have them here.
-        static block        / since it used to initialize static variables, static variables in interface are final and initialized.
+      Constructor		/ since it is not a class.
+      Instance methods	/ since, Interface is not an instance of Object. There is no constructors in an interface.
+      Instance variable / since instance variables are belong to object, we can't create obj from the Interface.
+      Instance block    / since it used to initialize instance variables, and we can't have them here.
+      static block      / since it used to initialize static variables, static variables in interface are final and initialized.
 
-Interface we have used: 
-                    WebDriver;
-                    WebElemnt;
-                    List;
-                    Set;
-                    Map;
+Interfaces we have used so far: 
+                    	WebDriver;
+                    	WebElemnt;
+                    	List;
+                    	Set;
+                    	Map;
                     
-Instance methods can be declared in the class where it has Object instance (constractor).
+Instance methods can be declared in the class where it has Object instance (constructor)
 That is why we cannot have instance methods in the Interface.
 
 Interface is pure abstraction, method declared in the interface is given abstract keyword by default

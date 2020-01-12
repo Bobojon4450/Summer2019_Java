@@ -12,7 +12,7 @@ Agenda:
 
 
 package name: day57_Exceptions
-	
+------------------------------------------------------------------------------------------------------------------------------------
 
 Exceptions: unwanted or unexpected events
 
@@ -20,15 +20,15 @@ Exceptions: unwanted or unexpected events
 	There are two types of exceptions:
 
 		Unchecked Exception (unexpected ): exceptions that occur during runtime.
-					Ex: int[] arr= {1, 2, 3}
+					Ex: int[] arr = {1, 2, 3}
 							syso(arr[20]);
 
-		Selenium Example: nullPointer exception
-						 No such Element Exception
-						 WebDriverException
+		Selenium Example: NullPointer exception
+						  No such Element Exception
+						  WebDriverException
 
-						 WedDriver driver = new FireFoxDriver();
-						 		driver.get("URL")
+						  WedDriver driver = new FireFoxDriver();
+						  driver.get("URL")
 
 
 		RunTimeException class is the parent class of all the unchecked exceptions.

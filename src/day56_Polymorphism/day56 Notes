@@ -12,22 +12,22 @@ Agenda:
 package name: day56_Polymorhisim
 
 
-Polymorphism:  Occurres when a super class/interface is reference and object is created from 
+Polymorphism:  Occurs when a super class/interface is reference and object is created from 
 			   child class.
 
-            A   extends   B
-            sub          super
+           A   extends   B
+          sub          super
 
-            B        obj       =   new     A()
-        ref-type   ref-name           object
+           B        obj       =   new     A()
+        ref-type   ref-name             object
 
-        reference type decides what can be accessible
+        Reference type decides what can be accessible.
+        
+        Child class cannot be the reference to parent class' object.
 
-        child class cannot be the reference to parent class' object.
+        If we make the abstract class as reference, object MUST be created from sub class(non abstract)
 
-        if we make the abstract class as reference, object MUST be created from sub class(non abstract)
-
-        if we make the interface as reference, object MUST be created from the classes(Non Abstract) that's 
+        If we make the interface as reference, object MUST be created from the classes(Non Abstract) that's 
         implementing the interface.
          
 

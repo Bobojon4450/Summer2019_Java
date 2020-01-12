@@ -5,7 +5,7 @@ public class StringMethods_Boolean {
 	public static void main(String[] args) {
 		/**
 		 isEmpty(): returns boolean expression. Checks if the String is empty. if there is a space returns true.
-		 */
+		*/
 	String str = "Cybertek";
 	boolean b = str.isEmpty();
 	System.out.println(b);

@@ -17,13 +17,13 @@ public class ArraysPractice {
 		System.out.println(AllStudents.length);
 
 		// initialize the size only without giving value:
-		int[] array = new int[4]; // we habvn't given values to the array
+		int[] array = new int[4]; // we haven't given values to the array
 		// this array can contain four values, it's length is 4
 
 		System.out.println(array.length);
-		System.out.println(array[0]);
-		System.out.println(array[1]);
-		System.out.println(array[2]);
+		System.out.println(array[0]); //0
+		System.out.println(array[1]); //0
+		System.out.println(array[2]); //0
 
 		// give values to the array:
 		array[1] = 100;

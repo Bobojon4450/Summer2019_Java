@@ -35,17 +35,17 @@ WarmUp:
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Abstraction: concentrating on importance/essential things without worrying about the details
+Abstraction: concentrating on important/essential things without worrying about the details
 
 abstract keyword: can only applicable to class and methods
 
-abstract class: we cannot create object of
+abstract class: we cannot create object of Abstract class
 
 				it's a class that's meant to be extended, cannot be final.
 				class' access modifiers can only public or default
 
 
-Abstract method: a method that's meant to be override
+Abstract method: a method that's meant to be overriden
 				 a method without body/implementation
 				 Cannot be static, private, final.
 				 Only the instance method can be override
@@ -65,4 +65,4 @@ Abstract method: a method that's meant to be override
 Overriding:	same method name, same parameter, same return-type
 			access modifier needs to be same or more visible
 			MUST override in sub class
-			@Override  must be applicable 
+			@Override  must be applicable.

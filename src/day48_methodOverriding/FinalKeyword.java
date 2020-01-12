@@ -7,10 +7,11 @@ class Holy{
 	}	
 }
 
-class Credentials{
+class Credentials {
+	
 	/*	final instance variables and static variables must be initialized before use.	*/
 	private final String userName = "holyMoly";
-	private final String passWord = "12345";
+	private final String passWord = "12345";	
 	
   /* public void setUserName(String userName) {
 		this.userName = userName;
@@ -28,11 +29,10 @@ class Credentials{
 		System.out.println(x + y);
 	}
 	
-	private static final double add(int x, int y, int z) {
+	private final static double add(int x, int y, int z) {
 		System.out.println(x + y + z);
 		return (x + y + z);
 	}
-	
 	
 	final public static void main(String[] args) {
 		Credentials cr =  new Credentials();
@@ -46,9 +46,9 @@ class Credentials{
 
 public class FinalKeyword extends Holy{
 
- /*@Override
+	/*@Override
 	public void printName() {
-		System.out.println("Madya");
+		System.out.println("Madya");  since it is final method
 	}*/
 	
 	
@@ -67,7 +67,7 @@ public class FinalKeyword extends Holy{
 		System.out.println();
 		
 		FinalKeyword fk = new FinalKeyword();
-		System.out.println(fk.age); 
+		System.out.println(fk.age);
 		fk.printName(); //calls inherited final method
 		
 	}

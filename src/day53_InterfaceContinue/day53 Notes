@@ -37,7 +37,7 @@ Interface: used for achieving abstraction, We can store abstract methods
 		We cannot create object from both interface and abstract class, because object needs to be concrete.
 
 		Abstract method cannot be overridden in Interface, because there is no instance methods in an Interface.
-
+		However abstract methods from interfaces can be overriden in an abstract method.
 
 Interface Can Have:
 			methods: abstract method, static method, default method
@@ -103,3 +103,5 @@ Extends keyword vs Implements keyword:
 
 		We can use extends and implement keyword at the same time.
 		Class extends class implements interface(S)2
+		
+		

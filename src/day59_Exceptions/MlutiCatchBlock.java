@@ -9,15 +9,15 @@ public class MlutiCatchBlock {
 		
 		try {
 			System.out.println(x[10]);
-		}catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 			System.out.println("NullPointerException");
-		}catch(ClassCastException e) {
+		} catch (ClassCastException e) {
 			System.out.println("ClassCastException");
-		}catch(NoSuchElementException e) {
+		} catch (NoSuchElementException e) {
 			System.out.println("NoSuchElementException");
-		}catch (ArrayIndexOutOfBoundsException e) {
+		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("ArrayIndexOutOfBoundsException");
-		}catch(IndexOutOfBoundsException e) {
+		} catch (IndexOutOfBoundsException e) {
 			System.out.println("IndexOutOfBoundsException");
 		}
 	}

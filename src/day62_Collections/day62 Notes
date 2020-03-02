@@ -6,20 +6,19 @@ Agenda:
     Morning: Java
     Afternoon: Selenium
 ------------------------------------------------------------------------------------------------------------------------------
-Data Structures: In order to manage data efficiently and in an orginized manner, 
-				 we need Data-structures.
+Data Structures: In order to manage data efficiently and in an organized manner, we need Data-structures.
             -- Array
             -- Collections FrameWork
             -- Maps
             
 Array: Collection of Data (same data type)
-        size is fixed
-        index numbers
-        can be multi-dimensional
-        supports primitives & objects
-        can have duplicates
+        Size is fixed
+        Indexed numbers
+        Can be multi - dimensional
+        Supports primitives & objects
+        Can have duplicates
         
-Collections framework: consists of multiple interfaces, each interfaces has multiple implementations
+Collections framework: consists of multiple Interfaces, each Interface has multiple implementations
         Interfaces in Collections framework:
                 1. Iterable
                 2. Collection
@@ -29,35 +28,38 @@ Collections framework: consists of multiple interfaces, each interfaces has mult
                 6. Queue
                 7. Deque
        All those interfaces are presented in java.util package.
-       ONLY supports Objects.
+       They ONLY support Objects as data type.
        
-Iterable (I): root interface, super type of all the interfaces in Collections framework.
+Iterable (I): root interface, super type of all the Interfaces in Collections framework.
 
 Collection (I): extended by three interfaces: List(I), Set(I), Queue(I)
 
-        List(I):  Implemented By ArrayList(C), LinkedList(C), Vector(C)
-                  has index numbers, dynamic sized, accepts duplicates.
+      List(I):  Implemented By ArrayList(C), LinkedList(C), Vector(C)
+                Indexed, Dynamic sized, accepts duplicates.
                     List<Integer> list1 = new ArrayList<>();
                     List<String> list2 = new LinkedList<>();
                     List<Double> list3 = new Vector<>();
                     List<Integer> list4 = new Stack<>();
                     
-                ArrayList: array based class, internally uses the Array.
-                LinkedList: each objects are doubly linked in the LinkedList.
-                   Doubly linked:  adding & removing  (add(), remove()) data are faster 
-                                   retrieving data (get() ) is slower. Is not array based class
+                ArrayList : Indexed, ordered, array based class, internally uses the Array.
+                
+                LinkedList: Indexed, ordered, each objects are doubly linked in the LinkedList.
+                			Adding & removing  (add(), remove()) data are faster in doubly linked 
+                            Retrieving data (get()) is slower. Is not array based class.
                                    
-                Vector: is synchronized, only preferred in  multi-threads
-                        advantage: thread safe in multi-thread environment.
-                        disadvantage: slower
-                        has a child class: Stack
-                Stack: synchronized
-                       pop(): LIFO ==> Last in First Out
-                       removes the last object from the Stack.
+                Vector    : Indexed, ordered, synchronized, only preferred in  multi-threads
+                            advantage	: thread safe in multi-thread environment.
+                        	disadvantage: slower
+                        	has a child class: Stack{}
+                
+                Stack	  : Indexed, ordered, synchronized
+                       		pop(): LIFO ==> Last in First Out
+                       		removes the last object from the Stack.
                        
                        
-    Set(I): Does not accepts duplicates, doesn't have index numbers.
-            Implemented by HashSet(C), LinkedHashSet(C), extended by SortedSet(I)
+    Set(I): Does not accepts duplicates, not Indexed, not Ordered
+            Implemented by HashSet(C), LinkedHashSet(C), 
+            extended by SortedSet(I)
                     SortedSet is implemented by TreeSet(C)
                     
                     Set<Integer> st1 = new HashSet<>();
@@ -65,10 +67,14 @@ Collection (I): extended by three interfaces: List(I), Set(I), Queue(I)
                     Set<Integer> st3 = new TreeSet<>();
                     
                 ONLY Accepts unique Objects.
-                HashSet: does not keep the order of the objects as it is
-                LinkedHashSet: does keep the order of the object as it is
-                                doubly linked
-                SortedSet(I): sorts the objects in Ascending order, does not accept duplicates
+                HashSet: Not ordered, Not indexed , Duplicates not allowed
+                LinkedHashSet: Ordered, Not sorted, Not indexed , Duplicates not allowed
+                
+                SortedSet(I): Sorts the objects in Ascending order, does not accept duplicates
                                 implemented by TreeSet(C)
-synchrnozed keyword:  used to achive ==> Thread safe in  multi-thread environment
-multi-thread: multiple threads try to get access to same resources
+                                
+                                
+Synchronized keyword:  used to achieve ==> Thread safe in  multi-thread environment
+Multi-thread: multiple threads try to get access to same resources.
+
+

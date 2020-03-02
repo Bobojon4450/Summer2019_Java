@@ -12,16 +12,16 @@ public class QueueInterface {
 		
 		/* Not indexed, unsorted/unordered, Duplicates allowed */
 		Queue<Integer> q1 = new PriorityQueue<Integer>();
-		q1.add(1);
+		q1.add(11);
 		q1.add(20);
 		q1.add(30);
 		q1.add(10);
 		q1.add(10);
-		System.out.println("(I)Queue <-> PriorityQueue:\t" + q1); // [1, 10, 30, 20, 10]
+		System.out.println("(I)Queue <-> PriorityQueue:\t" + q1); // [10, 10, 30, 20, 11]
 		q1.poll(); // FIFO - returns the first entered object of the collection and removes it instantly.
-		System.out.println("(I)Queue <-> PriorityQueue:\t" + q1); // [10, 10, 30, 20]
+		System.out.println("(I)Queue <-> PriorityQueue:\t" + q1); // [10, 11, 30, 20]
 		q1.poll();
-		System.out.println("(I)Queue <-> PriorityQueue:\t" + q1); // [10, 20, 30]
+		System.out.println("(I)Queue <-> PriorityQueue:\t" + q1); // [11, 20, 30]
 		System.out.println("----------------------------------------------------");
 
 		/* Queue<E>:	Not indexed, unsorted/unordered, Duplicates allowed 
@@ -40,13 +40,14 @@ public class QueueInterface {
 		q2.add("Tuna");
 		q2.add("Adam");
 		System.out.println("(I)Queue <-> PriorityQueue:\t" + q2); // [Adam, Marina, Adam, Zuhal, Marina, Tuna, Junhe]
-		System.out.println(q2.peek()); // returns the first element of collection.
+		System.out.println("q2.peek(): "+q2.peek()); // returns the first element of collection.
 		System.out.println("(I)Queue <-> PriorityQueue:\t" + q2); // [Adam, Marina, Adam, Zuhal, Marina, Tuna, Junhe]
 		q2.poll(); // returns the first element of collection and removes it instantly.
 		System.out.println("(I)Queue <-> PriorityQueue:\t"+q2); // [Adam, Marina, Junhe, Zuhal, Marina, Tuna]
 		q2.poll();
 		System.out.println("(I)Queue <-> PriorityQueue:\t"+q2);
 		System.out.println("----------------------------------------------------");
+		
 		
 		/* Deque<E>:	Not indexed, unsorted/unordered, Duplicates allowed 	
 		 * addFirst();
@@ -62,25 +63,25 @@ public class QueueInterface {
 		q3.addFirst(20);
 		q3.addFirst(1);
 		q3.addFirst(30);
-		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3+"\n");
+		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3+"\n"); // [30, 1, 20, 10, 10, 10]
 		
 		q3.addLast(40); /* adds 40 as the last element of the collection */
-		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3);
+		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3);// [30, 1, 20, 10, 10, 10, 40]
 		
-		q3.addLast(5);
+		q3.addLast(5); //	[2, 30, 1, 20, 10, 10, 10, 40, 5]
 		q3.addFirst(2);
-		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3);
+		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3); //[2, 30, 1, 20, 10, 10, 10, 40, 5]
 		
 		q3.removeFirst(); /* removes the first element of the collection instantly. */
-		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3);
+		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3); //[30, 1, 20, 10, 10, 10, 40, 5]
 		
 		q3.removeLast(); /* removes the last element of the collection instantly. */
-		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3);
+		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3); //[30, 1, 20, 10, 10, 10, 40]
 		
 		q3.add(11); /* adds from the back. */
 		q3.add(12);
-		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3);
+		System.out.println("(I)Deque <-> (C)ArrayDeque:\t"+q3); // [30, 1, 20, 10, 10, 10, 40, 11, 12]
 		System.out.println("----------------------------------------------------");
-		 
+		
 	}
 }

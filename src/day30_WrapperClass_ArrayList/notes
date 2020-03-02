@@ -13,13 +13,14 @@ WarmUp:
     Ex: 
             Unique("AABBCDEEE")  ==> "CD"
 
+---------------------------------------------------------------------------------------------------------------
 
 wrapper classes: 
         Every primitives in java has a class that's dedicated to it
 
         primitives: byte, short, int,  long,  float,  double, boolean, char
 
-        wrapper classes:  Byte, Short, Integer, Long, Float, Double, Boolean, Character
+        Wrapper classes:  Byte, Short, Integer, Long, Float, Double, Boolean, Character
 
         all wrapper class presented in "java.lang" package
 
@@ -31,27 +32,26 @@ wrapper classes:
 
     Unboxing: converting wrapper class value to primitives
 
-    default values of primitives:  
-                    byte, short, int, long ==>0;
-                    double, float ==> 0.0
-                    boolean ==> false
-                    char ==> space
+    Default values of primitives:
+                    byte, short, int, long -> 0;
+                    double, float -> 0.0
+                    boolean -> false
+                    char -> space
                     
                     
     default value of wrapper class:  null
             
-     if we do not give any objects to class (reference) null will be given by defualt
-            
-        String's default value is also null
+     if we do not give any objects to class (reference) null will be given by default            
+     String's default value is also null
 
 Useful methods of Wrapper class: 
                 Max_Value: returns the maximum value
 
                 Min_Value: returns the minimum value
 
-                parse methods: converts string values to primitive values, and it's not case sensitive
+      parse() methods: converts String values to primitive values, and it's not case sensitive
 
-                ValueOf methods: converts String values to Wrapper class values, and it's not case sensitive
+      ValueOf() methods: converts String values to Wrapper class values, and it's not case sensitive
 
 ArrayList class: 
             1. presented in "java.util" package

@@ -9,7 +9,7 @@ public class LambdaExpressions {
 
 	public static void main(String[] args) {
 		
-		/* Helps to create own expressions */
+		/* this Interface helps to create your own expressions */
 //						    name	  key -> represents our Predicate. (p == 100) is boolean condition
 		Predicate<Integer> remove100 = p -> p == 100;
 //		Whenever we declare Predicate the Iterator is automatically applied.
@@ -26,7 +26,7 @@ public class LambdaExpressions {
 		System.out.println("-------------------------------------------------");
 		
 		List<Integer> list2 = new ArrayList<Integer>(Arrays.asList(100, 200, 300, 400, 500, 600));
-		list2.removeIf(L -> L > 300); // represents lambda expression
+		list2.removeIf(p -> p > 400); // represents lambda expression
 		System.out.println(list2);
 		System.out.println("-------------------------------------------------");
 		
@@ -34,7 +34,7 @@ public class LambdaExpressions {
 		/* forEach() loop*/
 		List<Integer> list3 = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 		list3.forEach(each -> {
-			if (each < 5)
+			if (each <= 5)
 				System.out.print(each+" ");
 		});
 		System.out.println("\n-------------------------------------------------");
@@ -56,16 +56,24 @@ public class LambdaExpressions {
 		List<String> L1 = new ArrayList<String>();
 		L1.addAll(Arrays.asList("Muhtar", "Marufjon", "Mahmut", "Aziz", "Amina", "Mehemet"));
 		System.out.println("L1: "+L1);
-
+		
 		List<String> L2 = new ArrayList<String>();
 		L1.forEach(each -> {
 			if (each.startsWith("M")) {
 				L2.add(each);
 			}
 		});
-		System.out.println("L2: " + L2);
+		System.out.println("L2: " + L2); // [Muhtar, Marufjon, Mahmut, Mehemet]
 
 		L1.removeIf(M -> M.startsWith("M"));
-		System.out.println("L1: " + L1);
+		System.out.println("L1: " + L1); //	[Aziz, Amina]
+		// 1.4 + 1.7 = 3.1
+		
+		//sat-tracker
+		//track-wire
+		//azimuth fleet
+		//fleet track
+		//
+		
 	}
 }

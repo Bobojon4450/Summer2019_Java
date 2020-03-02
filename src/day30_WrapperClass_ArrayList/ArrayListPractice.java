@@ -7,12 +7,13 @@ import java.util.Scanner;
 public class ArrayListPractice {
 
 	public static void main(String[] args) {
+		
 		ArrayList<String> list = new ArrayList<>();
 		list.add("Homayra");
 		list.add("Apple");
 		list.add(1, "Adamsho");
-		System.out.println(list);
-		System.out.println();
+		System.out.println("list: "+list);
+		System.out.println("----------------------------------------");
 
 		Scanner in = new Scanner(System.in);
 		ArrayList<String> studentName = new ArrayList<>();
@@ -33,7 +34,7 @@ public class ArrayListPractice {
 			}
 		}
 		System.out.println(studentName);
-		
+		System.out.println("----------------------------------------");
 		
 		
 		int c[] = new int[] { 1, 2, 3, 4, 5 };
@@ -41,6 +42,7 @@ public class ArrayListPractice {
 		for (int i = 0; i < c.length; i++) {
 			d[i] = c[i] * 2;
 		}
-		System.out.println(Arrays.toString(d));
+		System.out.println("c[]: "+Arrays.toString(c));
+		System.out.println("d[]: "+Arrays.toString(d));
 	}
 }

@@ -10,16 +10,15 @@ public class ArrayListClass {
 		list.add(100);
 		list.add(10);
 		list.add(20);
-		System.out.println(list);
-		for (Integer integer : list) {
-			System.out.print(integer+" ");
+		System.out.println("list: "+list);
+		
+		for (int each : list) {
+			System.out.print(each+" ");
 		}System.out.println();
 		
 		
-		System.out.println(list.get(list.size()-1));
-		list.clear();
-		System.out.println(list);
-		
-
+		System.out.println(list.get(list.size()-1));// last element returned
+		list.clear(); // cleans list
+		System.out.println("list: "+list);
 	}
 }

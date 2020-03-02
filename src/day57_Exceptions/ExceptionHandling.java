@@ -1,5 +1,9 @@
 package day57_Exceptions;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 public class ExceptionHandling /* extends Exception */ {
 	
 	/*
@@ -10,9 +14,9 @@ public class ExceptionHandling /* extends Exception */ {
 	
 	public static void main(String[] args) {
 
-		divisionException();
-		throwsException();
-		System.out.println("Done");
+		divisionException();        // java.lang.ArithmeticException: / by zero
+		throwsException();	        // java.lang.ArrayIndexOutOfBoundsException
+		System.out.println("Done"); // Done printed
 		
 		int x[] = { 1, 2, 3 };
 		try {
@@ -25,7 +29,9 @@ public class ExceptionHandling /* extends Exception */ {
 			e.printStackTrace();
 		} catch (Exception e) {
 			e.printStackTrace();
-		}		
+		}catch (Throwable e) {
+			e.printStackTrace();
+		}	
 		System.out.println("Control flow continues...... <^^>");
 	}
 
@@ -48,8 +54,20 @@ public class ExceptionHandling /* extends Exception */ {
 			anyname.printStackTrace();
 		}
 	}
+	
+	public void test() {
+		throw new RuntimeException();
+	}
+	
+}
+
+abstract class Abs extends ExceptionHandling{
+	
 
 }
+	
+
+
 /*
  * class Test{ public static void main(String[] args) { String bla =
  * "bla  dsdg"; if (bla.contains("bla" )|| bla.contains("asdhfclb")) { throw new

@@ -11,7 +11,7 @@ public class StringMethods {
         
         String str3 = new String("Hello Javengers");
         String str4 = new String("Hello Javengers");
-        boolean R2 = str3 == str4;  // false
+        boolean R2 = str3 == str4;  // false, locations are different
         System.out.println( R2 );
         
         boolean R3 =  str1 == str3;  // false
@@ -19,8 +19,8 @@ public class StringMethods {
         
     /*
      Methods:
-        1. concat, 2. Length, 3. charAt, 4. toUpperCase,
-        5. toLowerCase      
+        1. concat(), 2. Length, 3. charAt(), 4. toUpperCase(),
+        5. toLowerCase() 
      */
     
     /* 
@@ -29,11 +29,11 @@ public class StringMethods {
         
     */  
         String a ="Cybertek";
-            a.concat(" School"); //  "Cybertek School"
-        System.out.println(a);
-            a = a.concat(" School"); //  a= "Cybertek School"
+            a.concat(" School"); //  "Cybertek School" never caught
+        System.out.println(a);//  "Cybertek"
+            a = a.concat(" School"); //  a = "Cybertek School"
     //  a = "Cybertek School";        
-        System.out.println(a);
+        System.out.println(a); // "Cybertek School"
         
         String A ="hello", B ="helloP";
         System.out.println(A==B); // false, different values
@@ -50,8 +50,7 @@ public class StringMethods {
                 System.out.println(num);
                
     /*
-    charAt(indexNum): it returns the character of the index number
-                    as a char value 
+    charAt(indexNum): it returns the character of the index number as a char value 
      */
        String name1 = "Muhtar";
        // index:       012345
@@ -81,29 +80,28 @@ public class StringMethods {
         
         
     /*
-        trim(): it's used for removing the unused spaces
-                returns a NEW String value
+        trim(): it's used for removing the unused spaces. Returns a NEW String value
         
      */
         
 		String s1 = "                 hello               ";
-		s1.trim();
-		System.out.println(s1);
+		s1.trim(); // uncaught
+		System.out.println(s1); //"                 hello               ";
 
 		s1 = s1.trim();
-		System.out.println(s1);
+		System.out.println(s1);//hello
 
 		String s2 = "Cybertek            School";
 		s2 = s2.trim();
-		System.out.println(s2);
+		System.out.println("s2: "+s2); // won't remove the inner space 
 
 		String s3 = "    ";
 		s3 = s3.trim();
-		System.out.println(s3);
+		System.out.println("s3: "+s3);
 
 		String s4 = "       Cybertek    School";
 		s4 = s4.trim();
-		System.out.println(s4);
+		System.out.println(s4); //Cybertek    School
             
     /*
         substring(beginning index): 

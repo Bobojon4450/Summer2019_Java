@@ -18,9 +18,8 @@ List(I): does have index numbers, accept duplicates, size is automatically adjus
                 get()is slower than arraylist
 
         Vector(C): is synchronized --> Thread safe
-
-                slower than LinkedList & ArrayList
-
+                   slower than LinkedList & ArrayList
+                
                 Has a child class: Stack
 
         Stack: LIFO
@@ -30,20 +29,18 @@ List(I): does have index numbers, accept duplicates, size is automatically adjus
 Set(I): does not have index numbers, does not accept duplicates, size is automatically adjusted
         implemented by: HashSet(C), LinkedHashSet(C);
 
-        HashSet: does not keep the order of the objects as it's
+        HashSet: not ordered, not indexed
 
-        LinkedHashSet: does keep the order of the objects as it's
-
-                    doubly linked
+        LinkedHashSet: not ordered, doubly linked
 
         extended by SortedSet(I)
 
-        SortedSet(I): sorts the objects in ascending order  , no duplicates
-                implemented by TreeSet
+        SortedSet(I): sorts the objects in ascending order, no duplicates
+                      implemented by TreeSet
 
 
 
-synchronized keyword: used for achiving thread safety in multi-thread
+synchronized keyword: used for achieving thread safety in multi-thread
         synchronized  ==> Thread safe ==> slower
 
 

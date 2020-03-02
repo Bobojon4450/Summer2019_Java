@@ -24,10 +24,9 @@ public class WarmUp {
 	    String word = scan.next();
 	    //WRITE YOUR CODE HERE
 	    String fLetter = (word.substring((word.length() - word.length()), (word.length() - word.length())+1));
-	    String lastLetter = word.substring(word.length()-1);
-	    System.out.print(fLetter+lastLetter);
-	    
-	    
+	    String lastLetter = word.substring(word.length()-1).toUpperCase();
+	    System.out.print(fLetter+"."+lastLetter);
+	      
 	}
 
 }// + word.substring(word.length()-1));

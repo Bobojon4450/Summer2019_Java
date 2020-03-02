@@ -100,7 +100,8 @@ Method overriding: ONLY THE INSTANCE METHOD CAN BE OVERRIDEN
 extends & implements:
 		Class extends Class
 		Interface extends Interface
-		Class implements Interface
+		
+		Class implements Interface, Interface, Interface, Interface
 
 
 

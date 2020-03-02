@@ -24,7 +24,7 @@ package day50_Abstrcation;
  */
 
 
- abstract class Animal {
+ abstract class Animal implements U{ // Abstract class can override an implemented abstract method
 
 	 public char gender;
 	 public byte age;
@@ -62,4 +62,12 @@ package day50_Abstrcation;
 		System.out.println("Age is " + age);
 		System.out.println("--------------------");
 	}
+	
+	@Override
+	public void aa() {System.out.println("aa");}
 }
+ 
+ interface U{
+	 public void aa();
+ }
+

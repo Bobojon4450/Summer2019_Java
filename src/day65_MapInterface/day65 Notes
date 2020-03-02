@@ -35,21 +35,30 @@ Map Interface: Accepts key and value, both key and value does not support primit
 
 
 Map Interface:
-	put(key, value): inserts key and value objects to the map
+	put(key, value): inserts key and value objects to the bucket of the map
 
-	get(key): retrives the value of the given key 
+	get(key): retrieves the value of the given key
 
 	remove(Key): removes the given key object and its value
 
-	size(): retruns the size of the map
+	size(): returns the size of the map
 
-	containsKey(Key): verifies if the given Key is exist in the map. retruns boolean
+	containsKey(Key): verifies if the given Key is exist in the map. returns boolean
 
-	containsValue(Value): verifies if the given value is exist in the map. retruns boolean
+	containsValue(Value): verifies if the given value is exist in the map. returns boolean
 
 	keySet(): returns all the keys as Set Interface
 
 	clear(): removes everything, size will become 0
+	
+	The Map interface includes methods for basic operations 
+	(such as put, get, remove, containsKey, containsValue, size, and empty)
+	 
+	Bulk operations (such as putAll and clear), 
+	and collection views (such as keySet, entrySet, and values)
+	
+	
+	
 
 
 

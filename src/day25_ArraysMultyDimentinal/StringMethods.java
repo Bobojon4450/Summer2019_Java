@@ -1,4 +1,4 @@
-package day25_ArraysContinue;
+package day25_ArraysMultyDimentinal;
 
 import java.util.Arrays;
 

@@ -46,7 +46,7 @@ public class ListInterface {
 		List<String>intList2 = new ArrayList<>(Arrays.asList(arr));
 		LinkedList<String>linked = new LinkedList<String>(Arrays.asList(arr));
 		System.out.println("(C)LinkedList:\t"+linked);//	[A, B, B]
-		System.out.println("(I)List:\t"+intList2);//	[A, B, B]
+		System.out.println("(I)List:\t"+intList2);    //    [A, B, B]
 		System.out.println("----------------------------------------------------\n");
 
 		/* Concrete, Implements List<E>. Vector is synchronized/thread safe and thus is secure 

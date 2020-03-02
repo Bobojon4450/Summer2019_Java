@@ -2,9 +2,9 @@ package day51_Abstract_continue;
 
 /*	Abstract class can have all kinds of methods and variables	*/
 
-public abstract class Test {
+public abstract class Test2 {
 
-	public Test() {
+	public Test2() {
 		System.out.println("Abstract class constructor");
 	}
 	
@@ -26,7 +26,7 @@ public abstract class Test {
 }
 
 
-class Concrete extends Test{
+class Concrete extends Test2{
 	
 	@Override
 	void method() {
@@ -42,4 +42,7 @@ class Concrete extends Test{
 	void method(String str) {
 		System.out.println("Overridden 3");	
 	}
+	
+	public static void add() {System.out.println("static of parent");}
 }
+

@@ -67,13 +67,8 @@ public class CollectionsReview {
 		
 		/* LinkedHashSet is ordered, NO duplicates allowed, Not indexed */
 		Set<Integer> linkedhashset = new LinkedHashSet<Integer>();
-		linkedhashset.add(2);
-		linkedhashset.add(100);
-        linkedhashset.add(90);
-        linkedhashset.add(80);
-        linkedhashset.add(70);
-        linkedhashset.remove(70);
-        System.out.println("Set <-> LinkedHashSet:\t"+linkedhashset);/*		[2, 100, 90, 80]	*/
+		linkedhashset.addAll(Arrays.asList(1, 2, 3, 4, 53, 32, 3, 2, 6));
+        System.out.println("Set <-> LinkedHashSet:\t"+linkedhashset);/*		[1, 2, 3, 4, 53, 32, 6]	*/
         System.out.println("---------------------------------------");
         
         
@@ -86,12 +81,17 @@ public class CollectionsReview {
         System.out.println("---------------------------------------");
         
         
-        SortedSet<Integer> sortedset = new TreeSet<Integer>( lists );
-        System.out.println("(I)SortedSet <-> (C)TreeSet:\t"+sortedset);
+        //The elements are ordered.
+        SortedSet<Integer> sortedset = new TreeSet<Integer>( lists );   //10, 9, 8, 7, 6
+        System.out.println("(I)SortedSet <-> (C)TreeSet:\t"+sortedset);// [6, 7, 8, 9, 10]
 		
-        /* No duplicates, ordered, not sorted */
+        /* No duplicates, not sorted */
 		HashSet<Integer> hs = new LinkedHashSet<Integer>();
-		hs.addAll(Arrays.asList(1, 3, 5, 8, 0, 8, 6, 3, 2, 1));
+		hs.addAll(Arrays.asList(1, 3, 5, 2, 8, 0, 8, 6, 3, 2, 1));
 		System.out.println("(C)HashSet <-> (C)LinkedHashSet:\t"+hs);
 	}
 }
+
+
+
+

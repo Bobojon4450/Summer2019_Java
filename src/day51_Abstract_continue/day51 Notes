@@ -22,21 +22,16 @@ abstract keyword: can only applicable to classes & methods
 
 Abstract class vs Non-abstract class:
 		
-		abstract class: 
-				we can have abstract methods and all the non-abstract methods ( anything that a non abstract class can have, abstract class can also ahve it)
-
-						 a class that's meant to be extended
-
-						 cannot be final
-
-						 cannot create object ( object is concrete, abstraction is not concrete)
+		Abstract class: 
+		We can have abstract methods and all the non-abstract methods ( anything that a non abstract class can have, abstract class can also have it)
+		 a class that's meant to be extended
+		 cannot be final
+		 cannot create object ( object is concrete, abstraction is not concrete)
 
 
 		non-abstract class: cannot have abstract methods
-
-							we can create objects
-
-							can be final (cannot extended)
+     	 we can create objects
+		 can be final (cannot extended)
 
 
 final keyword: can only be applicable to variables, methods, and classes

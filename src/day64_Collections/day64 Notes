@@ -40,15 +40,15 @@ Queue(I): does not have index numbers, does accept duplicates
 
             getLast(): retrives the last object from the Deque
 
-
+######################################################################################################################
 
 Iterable(I): extended by root interface collection
     
     we can apply Iterator(I) to the classes or interfaces that are sub type of Iterable
 
     Iterator(I):  
-        1. allows us to get access to each objects of the collection type
-        2. allows us to remove objects from a collection type 
+        1. Allows us to get access to each objects of the collection type
+        2. Allows us to remove objects from a collection type
 
         The ONLY legit way to remove data elements from a collection-type
 

@@ -38,8 +38,23 @@ public class WarmUp2 {
 			}
 		}
 		System.out.println(unique2);
+		
+		//------------------------------------------------
+		
+		
 
 	}
+	
+	public final int add(int x, int y) {
+		return x + y;
+	}
+	
+
+	public final int add(int x, int y, int z) {
+		return x + y;
+	}
+	
+	
 }
 // Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13
 //User story more than 8 points will be split into two.

@@ -49,4 +49,9 @@ Interfaces we have used so far:
 Instance methods can be declared in the class where it has Object instance (constructor)
 That is why we cannot have instance methods in the Interface.
 
-Interface is pure abstraction, method declared in the interface is given abstract keyword by default
+Interface is pure abstraction, method declared in the interface is given abstract 
+keyword by default
+
+
+
+

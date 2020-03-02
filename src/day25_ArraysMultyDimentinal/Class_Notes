@@ -16,7 +16,7 @@ Arrays Utilities:
 
 Arrays.toString(VariableName): it converts a array (single dimensional) to String value
 
-            ARRAY MUST MUST BE CONVERTED TO STRING IN ORDER TO BE PRINTED
+            ARRAY MUST BE CONVERTED TO STRING IN ORDER TO BE PRINTED
 
             Ex: 
             int[] arr ={1,2,3,4};
@@ -37,7 +37,7 @@ String methods:
                     String words ="Java is fun";
                     String[] arr = words.split(" ");
                     arr -> {"java", "is","fun"}
-            toCharArray(): retunrs the STring value as char Array:
+            toCharArray(): returns the String value as char Array:
                 Ex: String str="Java";
                         char[] ch = str.toCharArray();
                     ch -> {'J','a','v','a'}
@@ -57,7 +57,7 @@ Multi-Dimensioanl arrays:
 
              [index numbers of 1D array] [index numbers of values]
 
-                arr2d[0][1] ==> 2
+                arr2d[0][1] -> 2
                 arr2d[0] ==> [1,2]
 
 
